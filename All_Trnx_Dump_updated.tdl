@@ -151,8 +151,8 @@ Compute : Dump_RepAgstRef  : If $$IsEmpty:$Dump_OwnBillRefs Then (If $$IsEmpty:$
 Compute : Dump_RepLedger   : $LedgerName
 Compute : Dump_RepParty    : $Dump_VchParty
 Compute : Dump_RepPartyGrp : If $$IsEmpty:$Dump_VchParty Then "" Else $Parent:Ledger:$Dump_VchParty
-Compute : Dump_RepPAN      : $IncomeTaxNumber:Ledger:$LedgerName
-Compute : Dump_RepGSTIN    : $_PartyGSTIN:Ledger:$LedgerName
+Compute : Dump_RepPAN   : If $$IsEmpty:$Dump_VchParty Then $IncomeTaxNumber:Ledger:$LedgerName Else $IncomeTaxNumber:Ledger:($Dump_VchParty)
+Compute : Dump_RepGSTIN : If $$IsEmpty:$Dump_VchParty Then $_PartyGSTIN:Ledger:$LedgerName Else $_PartyGSTIN:Ledger:($Dump_VchParty)
 Compute : Dump_RepGroup    : $Parent:Ledger:$LedgerName
 Compute : Dump_RepGrpDesc  : $Description:Group:($Parent:Ledger:$LedgerName)
 Compute : Dump_RepInst     : $InstrumentNumber
@@ -274,8 +274,8 @@ Action : Export Report : Dump_Report : Excel
 [System : Formula]
 Dump_IsAgstRef     : $$IsSysNameEqual:AgstRef:$BillType
 Dump_FilterNoBills : $$IsEmpty:$BillAllocations
-;; Ledger belongs (directly or via sub-group) to Sundry Debtors / Sundry Creditors
-Dump_IsPartyLed    : $$IsLedOfGrp:$LedgerName:$$GroupSundryDebtors OR $$IsLedOfGrp:$LedgerName:$$GroupSundryCreditors
+;; Ledger belongs (directly or via sub-group) to Sundry Debtors, Sundry Creditors, or Unsecured Loans
+Dump_IsPartyLed    : $$IsLedOfGrp:$LedgerName:$$GroupSundryDebtors OR $$IsLedOfGrp:$LedgerName:$$GroupSundryCreditors OR $$IsLedOfGrp:$LedgerName:"Unsecured Loans"
 
 ;; First party ledger in the voucher (Sundry Debtors / Creditors incl. sub-groups)
 [Function : Dump_GetFirstParty]

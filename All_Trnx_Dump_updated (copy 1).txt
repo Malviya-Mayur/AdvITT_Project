@@ -1,0 +1,309 @@
+;; =======================================================
+;; 1. MENU ENTRY
+;; =======================================================
+[#Menu: Gateway of Tally]
+Add : Item : Full Transaction Dump : Display : Dump_Report
+
+;; =======================================================
+;; 2. REPORT & FORM
+;; =======================================================
+[Report: Dump_Report]
+Form : Dump_Form
+Title : "Full Transaction Dump"
+Set : SVFromDate : ##SVCurrentFromDate
+Set : SVToDate   : ##SVCurrentToDate
+
+[Form: Dump_Form]
+Part : Dump_TitlePart, Dump_BodyPart
+;; Standard buttons only: Period and Export
+Button : Change Period, Dump_ExportBtn
+Width : 100% Screen
+Height : 100% Screen
+
+;; =======================================================
+;; 3. TITLE PART (HEADERS)
+;; =======================================================
+[Part: Dump_TitlePart]
+Line : Dump_TitleLine
+
+[Line: Dump_TitleLine]
+Field : Dump_TTitleUID, Dump_TTitleDate, Dump_TTitleType, Dump_TTitleVchNo, Dump_TTitleRefNo, Dump_TTitleAgstRef, Dump_TTitleLedger, Dump_TTitleParty, Dump_TTitlePartyGrp, Dump_TTitlePAN, Dump_TTitleGSTIN, Dump_TTitleGroup, Dump_TTitleGrpDesc, Dump_TTitleInst, Dump_TTitleAmt, Dump_TTitleDrCr, Dump_TTitleNarr
+Border : Column Titles
+
+[Field: Dump_TTitleUID]
+Use : Name Field
+Set as : "ID"
+Width : 6
+
+[Field: Dump_TTitleDate]
+Use : Name Field
+Set as : "Date"
+Width : 10
+
+[Field: Dump_TTitleType]
+Use : Name Field
+Set as : "Voucher Type"
+Width : 12
+
+[Field: Dump_TTitleVchNo]
+Use : Name Field
+Set as : "Vch No."
+Width : 8
+
+[Field: Dump_TTitleRefNo]
+Use : Name Field
+Set as : "Ref No"
+Width : 10
+
+[Field: Dump_TTitleAgstRef]
+Use : Name Field
+Set as : "Agst Ref"
+Width : 15
+
+[Field: Dump_TTitleLedger]
+Use : Name Field
+Set as : "Ledger Name"
+Width : 20
+
+[Field: Dump_TTitleParty]
+Use : Name Field
+Set as : "Party Name"
+Width : 20
+
+[Field: Dump_TTitlePartyGrp]
+Use : Name Field
+Set as : "Party Group"
+Width : 15
+
+[Field: Dump_TTitlePAN]
+Use : Name Field
+Set as : "PAN"
+Width : 12
+
+[Field: Dump_TTitleGSTIN]
+Use : Name Field
+Set as : "GSTIN"
+Width : 17
+
+[Field: Dump_TTitleGroup]
+Use : Name Field
+Set as : "Parent Group"
+Width : 15
+
+[Field: Dump_TTitleGrpDesc]
+Use : Name Field
+Set as : "Group Desc."
+Width : 15
+
+[Field: Dump_TTitleInst]
+Use : Name Field
+Set as : "Inst. No"
+Width : 10
+
+[Field: Dump_TTitleAmt]
+Use : Name Field
+Set as : "Amount"
+Width : 12
+Align : Right
+
+[Field: Dump_TTitleDrCr]
+Use : Name Field
+Set as : "Dr/Cr"
+Width : 4
+Align : Center
+
+[Field: Dump_TTitleNarr]
+Use : Name Field
+Set as : "Narration"
+Width : 25
+
+;; =======================================================
+;; 4. BODY PART
+;; =======================================================
+[Part: Dump_BodyPart]
+Line : Dump_DetailsLine
+Repeat : Dump_DetailsLine : Dump_CollRows
+Scroll : Vertical
+
+;; =======================================================
+;; 5. COLLECTIONS (DATA FETCHING)
+;; =======================================================
+
+;; Source: Get All Vouchers (No Filter)
+[Collection: Dump_CollSource]
+Type : Voucher
+Fetch : *, LedgerEntries.*, AllLedgerEntries.*, AllLedgerEntries.BillAllocations.*
+Compute : Dump_VchBillRefs : $$Dump_GetAllBillRefs
+Compute : Dump_VchParty    : $$Dump_GetFirstParty
+Compute : Dump_VchNarr     : $Narration
+
+;; Flattened Collection: One row per Ledger Entry
+[Collection: Dump_CollRows]
+Source Collection : Dump_CollSource
+Walk : AllLedgerEntries
+Compute : Dump_RepMasterID : $MasterId
+Compute : Dump_RepDate     : $Date
+Compute : Dump_RepType     : $VoucherTypeName
+Compute : Dump_RepVchNo    : $VoucherNumber
+Compute : Dump_RepRefNo    : $Reference
+Compute : Dump_OwnBillRefs : $$Dump_ExtractBills:""
+Compute : Dump_RepAgstRef  : If $$IsEmpty:$Dump_OwnBillRefs Then (If $$IsEmpty:$BillAllocations Then $Dump_VchBillRefs Else "") Else $Dump_OwnBillRefs
+Compute : Dump_RepLedger   : $LedgerName
+Compute : Dump_RepParty    : $Dump_VchParty
+Compute : Dump_RepPartyGrp : If $$IsEmpty:$Dump_VchParty Then "" Else $Parent:Ledger:$Dump_VchParty
+Compute : Dump_RepPAN      : $IncomeTaxNumber:Ledger:$LedgerName
+Compute : Dump_RepGSTIN    : $_PartyGSTIN:Ledger:$LedgerName
+Compute : Dump_RepGroup    : $Parent:Ledger:$LedgerName
+Compute : Dump_RepGrpDesc  : $Description:Group:($Parent:Ledger:$LedgerName)
+Compute : Dump_RepInst     : $InstrumentNumber
+Compute : Dump_RepNarr     : $Dump_VchNarr
+;; Signed amount: Debit = +ve, Credit = -ve
+Compute : Dump_RepAmount   : If $IsDeemedPositive Then $Amount Else (0 - $Amount)
+Compute : Dump_RepDrCr     : If $IsDeemedPositive Then "Dr" Else "Cr"
+
+;; =======================================================
+;; 6. LINE & FIELDS (VISUALS)
+;; =======================================================
+[Line: Dump_DetailsLine]
+Field : Dump_FldUID, Dump_FldDate, Dump_FldVchType, Dump_FldVchNo, Dump_FldRefNo, Dump_FldAgstRef, Dump_FldLedger, Dump_FldParty, Dump_FldPartyGrp, Dump_FldPAN, Dump_FldGSTIN, Dump_FldGroup, Dump_FldGrpDesc, Dump_FldInst, Dump_FldAmount, Dump_FldDrCr, Dump_FldNarr
+
+[Field: Dump_FldUID]
+Use : Number Field
+Set as : $Dump_RepMasterID
+Width : 6
+Align : Left
+
+[Field: Dump_FldDate]
+Use : Short Date Field
+Set as : $Dump_RepDate
+Width : 10
+
+[Field: Dump_FldVchType]
+Use : Name Field
+Set as : $Dump_RepType
+Width : 12
+
+[Field: Dump_FldVchNo]
+Use : Name Field
+Set as : $Dump_RepVchNo
+Width : 8
+
+[Field: Dump_FldRefNo]
+Use : Name Field
+Set as : $Dump_RepRefNo
+Width : 10
+
+[Field: Dump_FldAgstRef]
+Use : Name Field
+Set as : $Dump_RepAgstRef
+Width : 15
+
+[Field: Dump_FldLedger]
+Use : Name Field
+Set as : $Dump_RepLedger
+Width : 20
+
+[Field: Dump_FldParty]
+Use : Name Field
+Set as : $Dump_RepParty
+Width : 20
+
+[Field: Dump_FldPartyGrp]
+Use : Name Field
+Set as : $Dump_RepPartyGrp
+Width : 15
+Style : Small
+
+[Field: Dump_FldPAN]
+Use : Name Field
+Set as : $Dump_RepPAN
+Width : 12
+
+[Field: Dump_FldGSTIN]
+Use : Name Field
+Set as : $Dump_RepGSTIN
+Width : 17
+
+[Field: Dump_FldGroup]
+Use : Name Field
+Set as : $Dump_RepGroup
+Width : 15
+Style : Small
+
+[Field: Dump_FldGrpDesc]
+Use : Name Field
+Set as : $Dump_RepGrpDesc
+Width : 15
+Style : Small Italic
+
+[Field: Dump_FldInst]
+Use : Name Field
+Set as : $Dump_RepInst
+Width : 10
+
+;; Plain signed number (no Dr/Cr suffix) so export shows -ve for credits
+[Field: Dump_FldAmount]
+Use : Number Field
+Set as : $Dump_RepAmount
+Width : 12
+Align : Right
+
+[Field: Dump_FldDrCr]
+Use : Name Field
+Set as : $Dump_RepDrCr
+Width : 4
+Align : Center
+
+[Field: Dump_FldNarr]
+Use : Name Field
+Set as : $Dump_RepNarr
+Width : 25
+Style : Normal Italic
+
+;; =======================================================
+;; 7. EXPORT BUTTON
+;; =======================================================
+[Button: Dump_ExportBtn]
+Title : "Export to Excel"
+Key : Alt + E
+Action : Export Report : Dump_Report : Excel
+
+;; =======================================================
+;; 8. SYSTEM FORMULAS & FILTERS
+;; =======================================================
+[System : Formula]
+Dump_IsAgstRef     : $$IsSysNameEqual:AgstRef:$BillType
+Dump_FilterNoBills : $$IsEmpty:$BillAllocations
+;; Ledger belongs (directly or via sub-group) to Sundry Debtors / Sundry Creditors
+Dump_IsPartyLed    : $$IsLedOfGrp:$LedgerName:$$GroupSundryDebtors OR $$IsLedOfGrp:$LedgerName:$$GroupSundryCreditors
+
+;; First party ledger in the voucher (Sundry Debtors / Creditors incl. sub-groups)
+[Function : Dump_GetFirstParty]
+    Variable : vParty : String : ""
+    01 : Walk Collection : AllLedgerEntries
+    02 :    If : $$IsEmpty:##vParty AND @@Dump_IsPartyLed
+    03 :        Set : vParty : $LedgerName
+    04 :    End If
+    05 : End Walk
+    06 : Return : ##vParty
+
+[Function : Dump_GetAllBillRefs]
+    Variable : vBillRefs : String : ""
+    01 : Walk Collection : AllLedgerEntries
+    02 :    Set : vBillRefs : $$Dump_ExtractBills:##vBillRefs
+    03 : End Walk
+    04 : Return : ##vBillRefs
+
+[Function : Dump_ExtractBills]
+    Parameter : pRefs : String
+    Variable  : vLocalRefs : String : ##pRefs
+    01 : Walk Collection : BillAllocations
+    02 :    If : @@Dump_IsAgstRef
+    03 :        If : $$IsEmpty:##vLocalRefs
+    04 :            Set : vLocalRefs : $Name
+    05 :        Else
+    06 :            Set : vLocalRefs : ##vLocalRefs + ", " + $Name
+    07 :        End If
+    08 :    End If
+    09 : End Walk
+    10 : Return : ##vLocalRefs
