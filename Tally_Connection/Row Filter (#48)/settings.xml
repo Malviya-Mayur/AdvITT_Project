@@ -13,7 +13,7 @@
                     <entry key="regularChoice" type="xstring" value="Parent_Group"/>
                     <entry key="specialChoice_Internals" type="xstring" isnull="true" value=""/>
                 </config>
-                <entry key="expectColumnTypePresent" type="xboolean" value="false"/>
+                <entry key="expectColumnTypePresent" type="xboolean" value="true"/>
                 <config key="columnType">
                     <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
@@ -26,13 +26,31 @@
                     <entry key="caseSensitivity" type="xstring" value="CASE_SENSITIVE"/>
                 </config>
             </config>
+            <config key="1">
+                <config key="columnV2">
+                    <entry key="regularChoice" type="xstring" value="Voucher_Type"/>
+                    <entry key="specialChoice_Internals" type="xstring" isnull="true" value=""/>
+                </config>
+                <entry key="expectColumnTypePresent" type="xboolean" value="false"/>
+                <config key="columnType">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="operator" type="xstring" value="EQ"/>
+                <config key="filterValueParameters">
+                    <entry key="@class" type="xstring" value="org.knime.base.node.preproc.filter.row3.operators.defaults.StringWithCaseParameters"/>
+                    <entry key="columnName" type="xstring" value="Voucher_Type"/>
+                    <entry key="value" type="xstring" value="Payment"/>
+                    <entry key="caseSensitivity" type="xstring" value="CASE_SENSITIVE"/>
+                </config>
+            </config>
         </config>
         <entry key="domains" type="xstring" value="RETAIN"/>
         <entry key="outputMode" type="xstring" value="MATCHING"/>
     </config>
     <config key="variables"/>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="Filter by Sales"/>
+        <entry key="text" type="xstring" value="Re-payment of%%00010Unsecured Loans"/>
         <entry key="contentType" type="xstring" value="text/plain"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
         <entry key="x-coordinate" type="xint" value="0"/>
@@ -47,7 +65,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory"/>
     <entry key="node-name" type="xstring" value="Row Filter"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -60,16 +78,19 @@
     <entry key="node-feature-version" type="xstring" value="5.12.0.v202606261225"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Row Filter"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 19"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="c482c782-659c-41d6-a0b9-f5d24e1c0762"/>
     </config>
 </config>

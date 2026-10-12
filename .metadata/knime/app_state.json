@@ -1,0 +1,22 @@
+{
+  "version" : "5.12.0.v202606180846",
+  "projects" : [ {
+    "name" : "Tally_Connection",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Tally_Connection"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "Tally_Connection",
+    "timeUsed" : "2026-10-12T12:14:19.659464372+05:30",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Tally_Connection"
+    }
+  } ]
+}

@@ -195,3 +195,397 @@ java.nio.file.FileSystemException: /tmp/knime_Tally_Connectio_19765/knime_contai
 2026-10-12 12:39:55,775 : INFO  : KNIME-Worker-21-Python Script 3:4 :  : PythonScriptingSession : Python Script : 3:4 : PythonScriptingSession created gateway (hash=2b6300d8) on thread 'KNIME-Worker-21-Python Script 3:4'
 2026-10-12 12:40:06,057 : INFO  : pool-33-thread-1 :  : DefaultPythonGateway : Python Script : 3:4 : Closing PythonGateway (PID=60174) from thread 'pool-33-thread-1'
 2026-10-12 12:40:06,058 : INFO  : KNIME-Worker-21-Python Script 3:4 :  : LocalNodeExecutionJob : Python Script : 3:4 : Python Script 3:4 End execute (11 secs)
+2026-10-12 12:43:54,198 : INFO  : KNIME-Worker-24-Python Script 3:19 :  : PythonScriptingSession : Python Script : 3:19 : PythonScriptingSession created gateway (hash=543cd114) on thread 'KNIME-Worker-24-Python Script 3:19'
+2026-10-12 12:43:54,420 : INFO  : KNIME-Worker-23-String to Date&Time 3:7 :  : LocalNodeExecutionJob : String to Date&Time : 3:7 : String to Date&Time 3:7 End execute (0 secs)
+2026-10-12 12:43:54,451 : INFO  : KNIME-Worker-25-GroupBy 3:25 :  : LocalNodeExecutionJob : GroupBy : 3:25 : GroupBy 3:25 End execute (0 secs)
+2026-10-12 12:43:54,511 : INFO  : KNIME-Worker-27-Date&Time to String 3:15 :  : LocalNodeExecutionJob : Date&Time to String : 3:15 : Date&Time to String 3:15 End execute (0 secs)
+2026-10-12 12:43:54,617 : INFO  : KNIME-Worker-28-Math Formula 3:42 :  : LocalNodeExecutionJob : Math Formula : 3:42 : Math Formula 3:42 End execute (0 secs)
+2026-10-12 12:43:54,692 : INFO  : KNIME-Worker-29-Column Resorter 3:14 :  : LocalNodeExecutionJob : Column Resorter : 3:14 : Column Resorter 3:14 End execute (0 secs)
+2026-10-12 12:43:54,831 : INFO  : KNIME-Worker-25-Row Filter 3:34 :  : LocalNodeExecutionJob : Row Filter : 3:34 : Row Filter 3:34 End execute (0 secs)
+2026-10-12 12:43:54,852 : INFO  : KNIME-Worker-28-GroupBy 3:32 :  : LocalNodeExecutionJob : GroupBy : 3:32 : GroupBy 3:32 End execute (0 secs)
+2026-10-12 12:43:54,858 : INFO  : KNIME-Worker-27-Row Filter 3:48 :  : LocalNodeExecutionJob : Row Filter : 3:48 : Row Filter 3:48 End execute (0 secs)
+2026-10-12 12:43:54,860 : INFO  : KNIME-Worker-31-Row Filter 3:30 :  : RowFilterNodeModel : Row Filter : 3:30 : The result table at port 0 contains no rows
+2026-10-12 12:43:54,862 : WARN  : KNIME-Worker-31-Row Filter 3:30 :  : Node : Row Filter : 3:30 : Node created an empty data table.
+2026-10-12 12:43:54,866 : INFO  : KNIME-Worker-23-Row Filter 3:39 :  : LocalNodeExecutionJob : Row Filter : 3:39 : Row Filter 3:39 End execute (0 secs)
+2026-10-12 12:43:54,866 : INFO  : KNIME-Worker-31-Row Filter 3:30 :  : LocalNodeExecutionJob : Row Filter : 3:30 : Row Filter 3:30 End execute (0 secs)
+2026-10-12 12:43:54,871 : INFO  : KNIME-Worker-30-Row Filter 3:6 :  : LocalNodeExecutionJob : Row Filter : 3:6 : Row Filter 3:6 End execute (0 secs)
+2026-10-12 12:43:54,914 : WARN  : KNIME-Worker-23-GroupBy 3:29 :  : Node : GroupBy : 3:29 : Empty input table found
+2026-10-12 12:43:54,916 : INFO  : KNIME-Worker-29-Row Filter 3:33 :  : LocalNodeExecutionJob : Row Filter : 3:33 : Row Filter 3:33 End execute (0 secs)
+2026-10-12 12:43:54,916 : INFO  : KNIME-Worker-32-GroupBy 3:49 :  : LocalNodeExecutionJob : GroupBy : 3:49 : GroupBy 3:49 End execute (0 secs)
+2026-10-12 12:43:54,923 : INFO  : KNIME-Worker-23-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-12 12:43:54,924 : INFO  : KNIME-Worker-25-GroupBy 3:50 :  : LocalNodeExecutionJob : GroupBy : 3:50 : GroupBy 3:50 End execute (0 secs)
+2026-10-12 12:43:54,924 : INFO  : KNIME-Worker-28-GroupBy 3:43 :  : LocalNodeExecutionJob : GroupBy : 3:43 : GroupBy 3:43 End execute (0 secs)
+2026-10-12 12:43:54,925 : INFO  : KNIME-Worker-27-GroupBy 3:46 :  : LocalNodeExecutionJob : GroupBy : 3:46 : GroupBy 3:46 End execute (0 secs)
+2026-10-12 12:43:54,939 : INFO  : KNIME-Worker-34-GroupBy 3:9 :  : LocalNodeExecutionJob : GroupBy : 3:9 : GroupBy 3:9 End execute (0 secs)
+2026-10-12 12:43:54,943 : INFO  : KNIME-Worker-33-GroupBy 3:41 :  : LocalNodeExecutionJob : GroupBy : 3:41 : GroupBy 3:41 End execute (0 secs)
+2026-10-12 12:43:54,960 : INFO  : KNIME-Worker-31-Table View (JavaScript) (legacy) 3:35 :  : LocalNodeExecutionJob : Table View (JavaScript) (legacy) : 3:35 : Table View (JavaScript) (legacy) 3:35 End execute (0 secs)
+2026-10-12 12:43:54,974 : INFO  : KNIME-Worker-30-Bar Chart 3:28 :  : LocalNodeExecutionJob : Bar Chart : 3:28 : Bar Chart 3:28 End execute (0 secs)
+2026-10-12 12:43:54,980 : INFO  : KNIME-Worker-32-Table View 3:45 :  : LocalNodeExecutionJob : Table View : 3:45 : Table View 3:45 End execute (0 secs)
+2026-10-12 12:43:54,987 : INFO  : KNIME-Worker-23-Line Plot 3:40 :  : LocalNodeExecutionJob : Line Plot : 3:40 : Line Plot 3:40 End execute (0 secs)
+2026-10-12 12:43:54,989 : INFO  : KNIME-Worker-25-Bar Chart 3:12 :  : LocalNodeExecutionJob : Bar Chart : 3:12 : Bar Chart 3:12 End execute (0 secs)
+2026-10-12 12:43:54,991 : INFO  : KNIME-Worker-29-Pie Chart 3:44 :  : LocalNodeExecutionJob : Pie Chart : 3:44 : Pie Chart 3:44 End execute (0 secs)
+2026-10-12 12:44:13,731 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 : NOTE: Opening Stock came out as 0. Check that your stock items have values and the dates are right.
+2026-10-12 12:44:13,731 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 : Ledgers: 144 | Vouchers used: 2014 | Opening Stock: 0.00
+2026-10-12 12:44:13,731 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 : Sum Opening_Net (should be 0): 0.00
+2026-10-12 12:44:13,731 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 : Sum Closing_Net (should be 0): 0.00
+2026-10-12 12:44:13,731 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 : Closing Debit total 76,296,194.00 | Closing Credit total 76,296,194.00
+2026-10-12 12:44:13,731 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 : Ledgers with Check_Diff != 0: 1
+2026-10-12 12:44:13,831 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 :   Stock-in-Hand: Check_Diff = -800,000.00
+2026-10-12 12:44:13,832 : INFO  : python-output-redirector-10 :  : PythonScriptingSession : Python Script : 3:19 :     no single voucher line equals this difference
+2026-10-12 12:44:13,977 : INFO  : pool-38-thread-1 :  : DefaultPythonGateway : Python Script : 3:19 : Closing PythonGateway (PID=60268) from thread 'pool-38-thread-1'
+2026-10-12 12:44:13,978 : INFO  : KNIME-Worker-24-Python Script 3:19 :  : LocalNodeExecutionJob : Python Script : 3:19 : Python Script 3:19 End execute (19 secs)
+2026-10-12 12:44:14,028 : WARN  : KNIME-Worker-24-Python Script 3:19 :  : Node : GroupBy : 3:20 : No grouping column included. Aggregate complete table.
+2026-10-12 12:44:14,056 : WARN  : KNIME-Worker-24-Python Script 3:19 :  : Node : GroupBy : 3:47 : No grouping column included. Aggregate complete table.
+2026-10-12 12:44:14,058 : INFO  : KNIME-Worker-28-Column Resorter 3:38 :  : LocalNodeExecutionJob : Column Resorter : 3:38 : Column Resorter 3:38 End execute (0 secs)
+2026-10-12 12:44:14,076 : WARN  : KNIME-Worker-28-Column Resorter 3:38 :  : Node : GroupBy : 3:20 : No grouping column included. Aggregate complete table.
+2026-10-12 12:44:14,137 : INFO  : KNIME-Worker-25-Row Filter 3:24 :  : LocalNodeExecutionJob : Row Filter : 3:24 : Row Filter 3:24 End execute (0 secs)
+2026-10-12 12:44:14,139 : INFO  : KNIME-Worker-27-Row Filter 3:36 :  : LocalNodeExecutionJob : Row Filter : 3:36 : Row Filter 3:36 End execute (0 secs)
+2026-10-12 12:44:14,140 : INFO  : KNIME-Worker-31-Row Filter 3:21 :  : LocalNodeExecutionJob : Row Filter : 3:21 : Row Filter 3:21 End execute (0 secs)
+2026-10-12 12:44:14,142 : INFO  : KNIME-Worker-30-Joiner 3:26 :  : LocalNodeExecutionJob : Joiner : 3:26 : Joiner 3:26 End execute (0 secs)
+2026-10-12 12:44:14,143 : INFO  : KNIME-Worker-33-Row Filter 3:23 :  : LocalNodeExecutionJob : Row Filter : 3:23 : Row Filter 3:23 End execute (0 secs)
+2026-10-12 12:44:14,141 : INFO  : KNIME-Worker-32-GroupBy 3:20 :  : LocalNodeExecutionJob : GroupBy : 3:20 : GroupBy 3:20 End execute (0 secs)
+2026-10-12 12:44:14,143 : INFO  : KNIME-Worker-34-Row Filter 3:22 :  : LocalNodeExecutionJob : Row Filter : 3:22 : Row Filter 3:22 End execute (0 secs)
+2026-10-12 12:44:14,149 : INFO  : KNIME-Worker-23-Column Filter 3:37 :  : LocalNodeExecutionJob : Column Filter : 3:37 : Column Filter 3:37 End execute (0 secs)
+2026-10-12 12:44:14,153 : INFO  : KNIME-Worker-29-Math Formula 3:27 :  : LocalNodeExecutionJob : Math Formula : 3:27 : Math Formula 3:27 End execute (0 secs)
+2026-10-12 12:44:14,154 : WARN  : KNIME-Worker-29-Math Formula 3:27 :  : Node : GroupBy : 3:47 : No grouping column included. Aggregate complete table.
+2026-10-12 12:44:14,159 : INFO  : KNIME-Worker-26-GroupBy 3:47 :  : LocalNodeExecutionJob : GroupBy : 3:47 : GroupBy 3:47 End execute (0 secs)
+2026-10-12 12:44:54,578 : INFO  : KNIME-Worker-29-Row Filter 3:48 :  : RowFilterNodeModel : Row Filter : 3:48 : The result table at port 0 contains no rows
+2026-10-12 12:44:54,578 : WARN  : KNIME-Worker-29-Row Filter 3:48 :  : Node : Row Filter : 3:48 : Node created an empty data table.
+2026-10-12 12:44:54,579 : INFO  : KNIME-Worker-29-Row Filter 3:48 :  : LocalNodeExecutionJob : Row Filter : 3:48 : Row Filter 3:48 End execute (0 secs)
+2026-10-12 12:44:54,628 : ERROR : Thread-18606 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-12 12:45:09,183 : INFO  : KNIME-Worker-26-Row Filter 3:48 :  : LocalNodeExecutionJob : Row Filter : 3:48 : Row Filter 3:48 End execute (0 secs)
+2026-10-12 12:47:06,117 : INFO  : KNIME-Worker-35-GroupBy 3:49 :  : LocalNodeExecutionJob : GroupBy : 3:49 : GroupBy 3:49 End execute (0 secs)
+2026-10-12 12:47:16,133 : INFO  : KNIME-Worker-36-GroupBy 3:49 :  : LocalNodeExecutionJob : GroupBy : 3:49 : GroupBy 3:49 End execute (0 secs)
+2026-10-12 12:47:59,954 : INFO  : KNIME-Worker-37-Row Filter 3:52 :  : LocalNodeExecutionJob : Row Filter : 3:52 : Row Filter 3:52 End execute (0 secs)
+2026-10-12 12:48:11,212 : INFO  : KNIME-Worker-38-Row Filter 3:52 :  : RowFilterNodeModel : Row Filter : 3:52 : The result table at port 0 contains no rows
+2026-10-12 12:48:11,212 : WARN  : KNIME-Worker-38-Row Filter 3:52 :  : Node : Row Filter : 3:52 : Node created an empty data table.
+2026-10-12 12:48:11,213 : INFO  : KNIME-Worker-38-Row Filter 3:52 :  : LocalNodeExecutionJob : Row Filter : 3:52 : Row Filter 3:52 End execute (0 secs)
+2026-10-12 12:48:48,738 : WARN  : KNIME-Worker-39-GroupBy 3:53 :  : Node : GroupBy : 3:53 : Empty input table found
+2026-10-12 12:48:48,740 : INFO  : KNIME-Worker-39-GroupBy 3:53 :  : LocalNodeExecutionJob : GroupBy : 3:53 : GroupBy 3:53 End execute (0 secs)
+2026-10-12 12:49:08,887 : WARN  : KNIME-Worker-40-GroupBy 3:53 :  : Node : GroupBy : 3:53 : Empty input table found
+2026-10-12 12:49:08,889 : INFO  : KNIME-Worker-40-GroupBy 3:53 :  : LocalNodeExecutionJob : GroupBy : 3:53 : GroupBy 3:53 End execute (0 secs)
+2026-10-12 12:49:51,571 : INFO  : python-gateway-closer-2 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=63060) from thread 'python-gateway-closer-2'
+2026-10-12 12:49:56,561 : WARN  : Thread-22646 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 12:50:37,756 : WARN  : Thread-23299 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 12:50:46,318 : WARN  : Thread-23913 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 12:50:58,583 : WARN  : Thread-24554 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 12:56:25,235 : WARN  : Thread-26745 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory/row-mapper.html; line: 0)
+2026-10-12 12:56:36,227 : WARN  : comm-pool-thread-27 :  : Node : Expression : 3:54 : The expression node has not yet been configured. Enter an expression.
+2026-10-12 12:56:36,379 : WARN  : Thread-27188 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory/row-mapper.html; line: 0)
+2026-10-12 12:58:17,714 : WARN  : Thread-28237 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 12:58:27,173 : WARN  : Thread-28667 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 12:58:29,125 : INFO  : KNIME-Worker-42-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=291761d6) on thread 'KNIME-Worker-42-Python Script 3:54'
+2026-10-12 12:58:29,726 : INFO  : python-output-redirector-15 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-12 12:58:29,727 : INFO  : python-output-redirector-15 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-12 12:58:29,842 : INFO  : pool-44-thread-1 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=68951) from thread 'pool-44-thread-1'
+2026-10-12 12:58:29,844 : INFO  : KNIME-Worker-42-Python Script 3:54 :  : LocalNodeExecutionJob : Python Script : 3:54 : Python Script 3:54 End execute (1 sec)
+2026-10-12 12:58:35,947 : WARN  : Thread-29284 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 12:59:24,772 : INFO  : KNIME-Worker-44-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=7c674eb7) on thread 'KNIME-Worker-44-Python Script 3:54'
+2026-10-12 12:59:25,375 : INFO  : python-output-redirector-17 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-12 12:59:25,376 : INFO  : python-output-redirector-17 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-12 12:59:25,452 : INFO  : pool-49-thread-1 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=68976) from thread 'pool-49-thread-1'
+2026-10-12 12:59:25,453 : INFO  : KNIME-Worker-44-Python Script 3:54 :  : LocalNodeExecutionJob : Python Script : 3:54 : Python Script 3:54 End execute (0 secs)
+2026-10-12 13:00:01,299 : INFO  : KNIME-Worker-46-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=5e7bb46c) on thread 'KNIME-Worker-46-Python Script 3:54'
+2026-10-12 13:00:01,900 : INFO  : python-output-redirector-14 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-12 13:00:01,900 : INFO  : python-output-redirector-14 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-12 13:00:01,960 : INFO  : pool-54-thread-1 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=69167) from thread 'pool-54-thread-1'
+2026-10-12 13:00:01,961 : INFO  : KNIME-Worker-46-Python Script 3:54 :  : LocalNodeExecutionJob : Python Script : 3:54 : Python Script 3:54 End execute (0 secs)
+2026-10-12 13:00:43,207 : WARN  : comm-pool-thread-33 :  : Node : Table Reader : 3:55 : Please specify a file
+2026-10-12 13:00:45,175 : WARN  : comm-pool-thread-13 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.NullPointerException: Cannot invoke "org.knime.core.node.BufferedDataTable.getBufferedTableId()" because "table" is null
+	at org.knime.gateway.impl.node.port.TablePortViewFactory.createPortView(TablePortViewFactory.java:89)
+	at org.knime.gateway.impl.node.port.TablePortViewFactory.createPortView(TablePortViewFactory.java:1)
+	at org.knime.core.webui.node.port.PortViewManager.getPortView(PortViewManager.java:231)
+	at org.knime.core.webui.node.port.PortViewManager.lambda$1(PortViewManager.java:97)
+	at org.knime.core.webui.node.DataServiceManager.lambda$8(DataServiceManager.java:198)
+	at org.knime.core.webui.node.NodePortWrapper$1.getWithContext(NodePortWrapper.java:114)
+	at org.knime.core.webui.node.DataServiceManager.getOrCreateDataService(DataServiceManager.java:197)
+	at org.knime.core.webui.node.DataServiceManager.getInitialDataService(DataServiceManager.java:134)
+	at org.knime.core.webui.node.DataServiceManager.getOrCreateDataServices(DataServiceManager.java:250)
+	at org.knime.core.webui.node.DataServiceManager.hasDeactivateRunnable(DataServiceManager.java:237)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:128)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:92)
+	at org.knime.gateway.api.entity.PortViewEnt.<init>(PortViewEnt.java:77)
+	at org.knime.gateway.impl.webui.service.DefaultPortService.getPortView(DefaultPortService.java:150)
+	at org.knime.gateway.impl.webui.service.DefaultPortService.getPortView(DefaultPortService.java:1)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcPortServiceWrapper.getPortView(JsonRpcPortServiceWrapper.java:128)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:112)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$16(Init.java:347)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-12 13:00:45,236 : ERROR : Thread-30478 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-12 13:00:45,297 : WARN  : Thread-30501 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:00:45,370 : WARN  : Thread-30524 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:00:46,607 : ERROR : Thread-30797 :  : KnimeBrowserView :  :  : %cerror%c UI Extension Renderer:: Unexpected error sending response to iframe 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-12 13:01:14,553 : WARN  : Thread-31331 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:01:14,671 : WARN  : Thread-31401 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:01:17,441 : INFO  : KNIME-Worker-54-Table Creator 3:55 :  : LocalNodeExecutionJob : Table Creator : 3:55 : Table Creator 3:55 End execute (0 secs)
+2026-10-12 13:01:17,444 : INFO  : KNIME-Worker-55-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=2981a26a) on thread 'KNIME-Worker-55-Python Script 3:54'
+2026-10-12 13:01:17,938 : WARN  : KNIME-Worker-55-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+2026-10-12 13:01:17,940 : INFO  : KNIME-Worker-55-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=69320) from thread 'KNIME-Worker-55-Python Script 3:54'
+2026-10-12 13:01:17,962 : ERROR : KNIME-Worker-55-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: 'Date'
+org.knime.core.node.KNIMEException: Execute failed: KeyError: 'Date'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-12 13:01:19,288 : WARN  : Thread-31716 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:01:20,527 : INFO  : KNIME-Worker-57-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=4b16859a) on thread 'KNIME-Worker-57-Python Script 3:54'
+2026-10-12 13:01:21,120 : WARN  : KNIME-Worker-57-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+2026-10-12 13:01:21,121 : INFO  : KNIME-Worker-57-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=69612) from thread 'KNIME-Worker-57-Python Script 3:54'
+2026-10-12 13:01:21,143 : ERROR : KNIME-Worker-57-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: 'Date'
+org.knime.core.node.KNIMEException: Execute failed: KeyError: 'Date'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-12 13:04:13,014 : WARN  : Thread-32454 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:04:25,086 : WARN  : Thread-32912 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:04:27,495 : WARN  : Thread-33220 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:04:28,885 : WARN  : Thread-33516 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:04:54,359 : WARN  : comm-pool-thread-13 :  : Node : Row Filter : 3:56 : Column "Parent_Group" could not be found in input table
+2026-10-12 13:05:18,039 : INFO  : KNIME-Worker-61-Row Filter 3:56 :  : LocalNodeExecutionJob : Row Filter : 3:56 : Row Filter 3:56 End execute (0 secs)
+2026-10-12 13:05:28,145 : INFO  : KNIME-Worker-62-Row Filter 3:55 :  : LocalNodeExecutionJob : Row Filter : 3:55 : Row Filter 3:55 End execute (0 secs)
+2026-10-12 13:05:29,787 : WARN  : Thread-34595 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:05:29,834 : WARN  : Thread-34617 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:05:31,856 : WARN  : Thread-35153 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:06:03,519 : WARN  : Thread-36051 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:06:05,130 : INFO  : KNIME-Worker-63-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=54cbb9c8) on thread 'KNIME-Worker-63-Python Script 3:54'
+2026-10-12 13:06:05,923 : WARN  : KNIME-Worker-63-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+2026-10-12 13:06:05,924 : INFO  : KNIME-Worker-63-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=69660) from thread 'KNIME-Worker-63-Python Script 3:54'
+2026-10-12 13:06:05,955 : ERROR : KNIME-Worker-63-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: 'Date'
+org.knime.core.node.KNIMEException: Execute failed: KeyError: 'Date'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-12 13:06:07,340 : INFO  : KNIME-Worker-65-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=4d5a7bc3) on thread 'KNIME-Worker-65-Python Script 3:54'
+2026-10-12 13:06:08,009 : WARN  : KNIME-Worker-65-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+2026-10-12 13:06:08,011 : INFO  : KNIME-Worker-65-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=70384) from thread 'KNIME-Worker-65-Python Script 3:54'
+2026-10-12 13:06:08,032 : ERROR : KNIME-Worker-65-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: 'Date'
+org.knime.core.node.KNIMEException: Execute failed: KeyError: 'Date'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-12 13:06:10,020 : INFO  : KNIME-Worker-67-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=455becd1) on thread 'KNIME-Worker-67-Python Script 3:54'
+2026-10-12 13:06:10,673 : WARN  : KNIME-Worker-67-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+2026-10-12 13:06:10,674 : INFO  : KNIME-Worker-67-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=70451) from thread 'KNIME-Worker-67-Python Script 3:54'
+2026-10-12 13:06:10,694 : ERROR : KNIME-Worker-67-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: 'Date'
+org.knime.core.node.KNIMEException: Execute failed: KeyError: 'Date'
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-12 13:06:55,795 : INFO  : KNIME-Worker-69-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=8c29ab4) on thread 'KNIME-Worker-69-Python Script 3:54'
+2026-10-12 13:06:56,496 : INFO  : python-output-redirector-24 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-12 13:06:56,499 : INFO  : python-output-redirector-24 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-12 13:06:56,731 : INFO  : pool-70-thread-1 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=70484) from thread 'pool-70-thread-1'
+2026-10-12 13:06:56,733 : INFO  : KNIME-Worker-69-Python Script 3:54 :  : LocalNodeExecutionJob : Python Script : 3:54 : Python Script 3:54 End execute (0 secs)
+2026-10-12 13:07:07,634 : WARN  : Thread-37235 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:07:12,269 : WARN  : Thread-37574 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:08:20,527 : INFO  : KNIME-Worker-71-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=3d0d5638) on thread 'KNIME-Worker-71-Python Script 3:54'
+2026-10-12 13:08:21,129 : INFO  : python-output-redirector-27 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-12 13:08:21,129 : INFO  : python-output-redirector-27 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-12 13:08:21,297 : INFO  : pool-74-thread-1 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=71128) from thread 'pool-74-thread-1'
+2026-10-12 13:08:21,298 : INFO  : KNIME-Worker-71-Python Script 3:54 :  : LocalNodeExecutionJob : Python Script : 3:54 : Python Script 3:54 End execute (0 secs)
+2026-10-12 13:09:02,441 : WARN  : Thread-38969 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:09:04,858 : WARN  : Thread-39102 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-12 13:11:55,357 : ERROR : main :  : KNIMEApplicationWorkbenchAdvisor :  :  : Uncaught exception in event loop
+java.lang.IllegalArgumentException: 
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:68)
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:52)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElementsRecursive(ModelServiceImpl.java:175)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:435)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.findElements(ModelServiceImpl.java:416)
+	at org.eclipse.ui.internal.WorkbenchPage.unzoomSharedArea(WorkbenchPage.java:5350)
+	at org.eclipse.ui.internal.WorkbenchPage.unzoomSharedArea(WorkbenchPage.java:5370)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$6(WorkbenchPage.java:5411)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5967)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:206)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:73)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:48)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:316)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1500)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1480)
+	at org.eclipse.ui.internal.Workbench$12.run(Workbench.java:1230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench.persist(Workbench.java:1213)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1154)
+	at org.eclipse.ui.internal.Workbench.lambda$5(Workbench.java:1466)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1466)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1437)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1714)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1750)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:574)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:101)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5862)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1656)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1682)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Shell.closeWidget(Shell.java:716)
+	at org.eclipse.swt.widgets.Shell.gtk_delete_event(Shell.java:1548)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6857)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6169)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1605)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:212)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1403)
+2026-10-12 13:11:55,840 : INFO  : python-gateway-closer-3 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=71412) from thread 'python-gateway-closer-3'
+2026-10-12 13:11:56,056 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x00007f2090317a30 :  : FileUtil :  :  : Deleting 41 temporary files.
