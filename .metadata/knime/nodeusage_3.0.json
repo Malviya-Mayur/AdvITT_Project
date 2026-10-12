@@ -6,9 +6,9 @@
             {
                 "id": "org.knime.base.node.io.tablecreator.TableCreator3NodeFactory",
                 "nodename": "Table Creator",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 0,
-                "exectime": 67,
+                "exectime": 71,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -50,9 +50,9 @@
             {
                 "id": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
                 "nodename": "Row Filter",
-                "nrexecs": 10,
+                "nrexecs": 11,
                 "nrfails": 0,
-                "exectime": 2880,
+                "exectime": 2927,
                 "nrcreated": 0,
                 "nrsettingsChanged": 2,
                 "successor": "n/a",
@@ -188,7 +188,7 @@
             "WEB_UI": 1
         }
     },
-    "uptime": 604589,
+    "uptime": 1552589,
     "workflowsOpened": 1,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
@@ -201,7 +201,7 @@
     "lastUsedPerspective": "none",
     "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 604589,
+    "timeSinceLastStart": 1552589,
     "crashes": 0,
     "properlyShutDown": false
 }
