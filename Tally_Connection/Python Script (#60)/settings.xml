@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="python3_command" type="xstring" value=""/>
+        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010import re%%00010%%00010# Load dataset from KNIME input port%%00010df = knio.input_tables[0].to_pandas()%%00010%%00010# 1. Standardize Party_Name to handle nulls and filter out inapplicable rows (blanks)%%00010df['Party_Name'] = df['Party_Name'].fillna('').astype(str).str.strip()%%00010df_master = df[df['Party_Name'] != ''].copy()%%00010%%00010# 2. Keep only the necessary master data columns%%00010master_cols = ['Party_Name', 'Party_Group', 'PAN', 'GSTIN']%%00010cols_to_keep = [col for col in master_cols if col in df_master.columns]%%00010df_master = df_master[cols_to_keep]%%00010%%00010# 3. Remove duplicate line items to create a unique master data list%%00010df_master = df_master.drop_duplicates(subset=['Party_Name']).reset_index(drop=True)%%00010%%00010# 4. Define the validation function%%00010def validate_master_data(row):%%00010    pan = str(row.get('PAN', '')).strip().upper()%%00010    gstin = str(row.get('GSTIN', '')).strip().upper()%%00010    %%00010    # Handle pandas nulls that might have been converted to strings%%00010    if pan in ('NAN', 'NONE', 'NULL'): pan = ''%%00010    if gstin in ('NAN', 'NONE', 'NULL'): gstin = ''%%00010    %%00010    if not pan and not gstin:%%00010        return &quot;Missing both PAN and GSTIN&quot;%%00010        %%00010    errors = []%%00010    valid_pan = False%%00010    valid_gstin = False%%00010    %%00010    # Criteria 1 &amp; 5: PAN format (10 characters: 5 Letters, 4 Digits, 1 Letter)%%00010    if pan:%%00010        if not re.match(r'^[A-Z]{5}[0-9]{4}[A-Z]{1}$', pan):%%00010            errors.append(&quot;Invalid PAN structure (Must be 5 letters, 4 digits, 1 letter)&quot;)%%00010        else:%%00010            valid_pan = True%%00010            %%00010            # Criteria 4: 4th letter as per Income Tax entity type%%00010            valid_4th_chars = ['C', 'P', 'H', 'F', 'A', 'T', 'B', 'L', 'J', 'G']%%00010            if pan[3] not in valid_4th_chars:%%00010                errors.append(f&quot;Invalid PAN 4th character '{pan[3]}' (Must be one of {','.join(valid_4th_chars)})&quot;)%%00010                %%00010    # Criteria 2: GSTIN format (15 characters)%%00010    if gstin:%%00010        if len(gstin) != 15:%%00010            errors.append(&quot;GSTIN length must be exactly 15 characters&quot;)%%00010        else:%%00010            # Structure check: 2 digits + 10 char PAN + Entity Code + Z (usually) + Checksum%%00010            if not re.match(r'^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}[A-Z0-9]{1}[0-9A-Z]{1}$', gstin):%%00010                errors.append(&quot;Invalid GSTIN alphanumeric structure&quot;)%%00010            else:%%00010                valid_gstin = True%%00010                %%00010                # Criteria 6 (Additional): Validate starting 2-digit State Code (01-38, 97, 99)%%00010                try:%%00010                    state_code = int(gstin[:2])%%00010                    if not (1 &lt;= state_code &lt;= 38 or state_code in [97, 99]):%%00010                        errors.append(f&quot;Invalid GSTIN State Code '{gstin[:2]}'&quot;)%%00010                except ValueError:%%00010                    errors.append(&quot;GSTIN must start with a valid 2-digit state code&quot;)%%00010%%00010    # Criteria 3: GSTIN shall contain PAN%%00010    if valid_pan and valid_gstin:%%00010        extracted_pan = gstin[2:12]%%00010        if pan != extracted_pan:%%00010            errors.append(f&quot;PAN embedded in GSTIN ({extracted_pan}) does not match the provided PAN ({pan})&quot;)%%00010    elif not pan and valid_gstin:%%00010        # Criteria 6 (Additional): If GSTIN exists, PAN must also be recorded in the master%%00010        errors.append(&quot;PAN is missing from master data but GSTIN is provided&quot;)%%00010        %%00010    return &quot; | &quot;.join(errors) if errors else &quot;Valid&quot;%%00010%%00010# 5. Apply validation logic to the unique list%%00010if not df_master.empty:%%00010    df_master['Validation_Remarks'] = df_master.apply(validate_master_data, axis=1)%%00010else:%%00010    # Failsafe if the table is completely empty after filtering%%00010    df_master['Validation_Remarks'] = pd.Series(dtype='str')%%00010%%00010# Output the deduplicated, validated master data table back to KNIME%%00010knio.output_tables[0] = knio.Table.from_pandas(df_master)"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="python3_command">
+                <entry key="used_variable" type="xstring" value=""/>
+                <entry key="used_variable_flawed" type="xboolean" value="false"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Python Script"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Scripting Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python3.scripting.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.12.0.v202606171811"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python3.scripting.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.12.0.v202606171811"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Python environment"/>
+        <config key="Input object (pickled)"/>
+        <config key="Input table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output image"/>
+        <config key="Output object (pickled)"/>
+    </config>
+    <entry key="name" type="xstring" value="Python Script"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 44, Cols: 5"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="b0cb3588-100f-4449-b694-28c9ce3818fa"/>
+    </config>
+</config>
