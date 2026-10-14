@@ -17,11 +17,11 @@
             {
                 "id": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
                 "nodename": "Python Script",
-                "nrexecs": 65,
+                "nrexecs": 66,
                 "nrfails": 11,
-                "exectime": 365920,
+                "exectime": 368432,
                 "nrcreated": 2,
-                "nrsettingsChanged": 36,
+                "nrsettingsChanged": 37,
                 "successor": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
                 "successornodename": "Python Script"
             },
@@ -233,7 +233,7 @@
             "WEB_UI_QUICK_INSERTION_RECOMMENDED": 1
         }
     },
-    "uptime": 4908655,
+    "uptime": 4945972,
     "workflowsOpened": 4,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
@@ -246,7 +246,7 @@
     "lastUsedPerspective": "none",
     "launches": 4,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 12211030,
+    "timeSinceLastStart": 12360295,
     "crashes": 0,
     "properlyShutDown": false
 }
