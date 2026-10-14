@@ -17,20 +17,20 @@
             {
                 "id": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
                 "nodename": "Python Script",
-                "nrexecs": 29,
-                "nrfails": 6,
-                "exectime": 227263,
+                "nrexecs": 34,
+                "nrfails": 9,
+                "exectime": 263166,
                 "nrcreated": 2,
-                "nrsettingsChanged": 11,
-                "successor": "n/a",
-                "successornodename": "n/a"
+                "nrsettingsChanged": 13,
+                "successor": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+                "successornodename": "Excel Writer"
             },
             {
                 "id": "org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory",
                 "nodename": "Column Resorter",
-                "nrexecs": 10,
+                "nrexecs": 12,
                 "nrfails": 0,
-                "exectime": 55,
+                "exectime": 87,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
@@ -39,9 +39,9 @@
             {
                 "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
                 "nodename": "GroupBy",
-                "nrexecs": 57,
+                "nrexecs": 68,
                 "nrfails": 0,
-                "exectime": 5058,
+                "exectime": 6072,
                 "nrcreated": 0,
                 "nrsettingsChanged": 4,
                 "successor": "n/a",
@@ -50,9 +50,9 @@
             {
                 "id": "org.knime.base.node.preproc.filter.row3.RowFilterNodeFactory",
                 "nodename": "Row Filter",
-                "nrexecs": 78,
+                "nrexecs": 94,
                 "nrfails": 0,
-                "exectime": 15433,
+                "exectime": 17134,
                 "nrcreated": 0,
                 "nrsettingsChanged": 9,
                 "successor": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
@@ -61,9 +61,9 @@
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
                 "nodename": "Column Filter",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 202,
+                "exectime": 206,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -72,9 +72,9 @@
             {
                 "id": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory2",
                 "nodename": "String to Date&Time",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 1049,
+                "exectime": 1321,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -83,9 +83,9 @@
             {
                 "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
                 "nodename": "Joiner",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 467,
+                "exectime": 532,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -94,9 +94,9 @@
             {
                 "id": "org.knime.ext.jep.JEPNodeFactory",
                 "nodename": "Math Formula",
-                "nrexecs": 12,
+                "nrexecs": 14,
                 "nrfails": 0,
-                "exectime": 543,
+                "exectime": 716,
                 "nrcreated": 0,
                 "nrsettingsChanged": 3,
                 "successor": "org.knime.base.node.preproc.groupby.GroupByNodeFactory",
@@ -105,9 +105,9 @@
             {
                 "id": "org.knime.time.node.convert.datetimetostring.DateTimeToStringNodeFactory2",
                 "nodename": "Date&Time to String",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 427,
+                "exectime": 519,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -116,9 +116,9 @@
             {
                 "id": "org.knime.base.views.node.barchart.BarChartNodeFactory",
                 "nodename": "Bar Chart",
-                "nrexecs": 10,
+                "nrexecs": 12,
                 "nrfails": 0,
-                "exectime": 573,
+                "exectime": 672,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -127,9 +127,9 @@
             {
                 "id": "org.knime.base.views.node.tableview.TableViewNodeFactory",
                 "nodename": "Table View",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 27,
+                "exectime": 130,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -138,9 +138,9 @@
             {
                 "id": "org.knime.base.views.node.lineplot.LinePlotNodeFactory",
                 "nodename": "Line Plot",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 10,
+                "exectime": 55,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -149,9 +149,9 @@
             {
                 "id": "org.knime.base.views.node.piechart.PieChartNodeFactory",
                 "nodename": "Pie Chart",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 103,
+                "exectime": 119,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -160,9 +160,9 @@
             {
                 "id": "org.knime.js.base.node.viz.pagedTable.PagedTableViewNodeFactory",
                 "nodename": "Table View (JavaScript) (legacy)",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 222,
+                "exectime": 231,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -200,6 +200,28 @@
                 "nrsettingsChanged": 0,
                 "successor": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
                 "successornodename": "Python Script"
+            },
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory",
+                "nodename": "Excel Writer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 632,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.variablecreator.VariableCreatorNodeFactory",
+                "nodename": "Variable Creator",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 30,
+                "nrcreated": 1,
+                "nrsettingsChanged": 2,
+                "successor": "org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory",
+                "successornodename": "Python Script"
             }
         ],
         "metaNodes": {
@@ -207,10 +229,10 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 5
+            "WEB_UI": 7
         }
     },
-    "uptime": 2069427,
+    "uptime": 2489393,
     "workflowsOpened": 4,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
@@ -223,7 +245,7 @@
     "lastUsedPerspective": "none",
     "launches": 4,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 854117,
+    "timeSinceLastStart": 2533982,
     "crashes": 0,
     "properlyShutDown": false
 }

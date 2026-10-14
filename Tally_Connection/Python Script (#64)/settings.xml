@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="python3_command" type="xstring" value=""/>
+        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010from openpyxl.styles import Font, PatternFill, Alignment, Border, Side%%00010from openpyxl.utils import get_column_letter%%00010%%00010# Load data from KNIME input port%%00010df = knio.input_tables[0].to_pandas()%%00010%%00010# Fetch the dynamic file path from the connected KNIME flow variable%%00010export_path = knio.flow_variables['export_file_path']%%00010%%00010# Use openpyxl instead of xlsxwriter, as it is pre-installed in KNIME%%00010with pd.ExcelWriter(export_path, engine='openpyxl') as writer:%%00010    # Write DataFrame starting at row 3 (index 2) to leave space for the title%%00010    df.to_excel(writer, sheet_name='Negative Cash', startrow=2, index=False)%%00010    %%00010    workbook = writer.book%%00010    worksheet = writer.sheets['Negative Cash']%%00010    %%00010    # 1. Insert the custom heading at the top (A1)%%00010    worksheet['A1'] = 'Negative Cash Balances'%%00010    worksheet['A1'].font = Font(bold=True, size=16)%%00010    worksheet['A1'].alignment = Alignment(horizontal='left', vertical='center')%%00010    %%00010    # Define styles for the header row%%00010    header_fill = PatternFill(start_color='E0E0E0', end_color='E0E0E0', fill_type='solid')%%00010    thin_border = Border(left=Side(style='thin'), right=Side(style='thin'), %%00010                         top=Side(style='thin'), bottom=Side(style='thin'))%%00010                         %%00010    # 2. Apply formatting to headers and auto-fit columns%%00010    for col_num, col_name in enumerate(df.columns, 1):%%00010        col_letter = get_column_letter(col_num)%%00010        %%00010        # Format header cell (Row 3 in openpyxl is 1-indexed)%%00010        header_cell = worksheet.cell(row=3, column=col_num)%%00010        header_cell.fill = header_fill%%00010        header_cell.font = Font(bold=True)%%00010        header_cell.border = thin_border%%00010        %%00010        # Auto-fit column width based on content length%%00010        max_len = max(df[col_name].astype(str).map(len).max() if not df.empty else 0, len(col_name)) + 2%%00010        worksheet.column_dimensions[col_letter].width = max_len%%00010        %%00010    # 3. Apply specific number and date formats to the data rows%%00010    for row_num in range(4, 4 + len(df)):%%00010        for col_num, col_name in enumerate(df.columns, 1):%%00010            cell = worksheet.cell(row=row_num, column=col_num)%%00010            %%00010            if col_name in ['Amount', 'Amuount (Reverse)', 'Running_Balance']:%%00010                cell.number_format = '#,##0.00'%%00010            elif 'Date' in col_name:%%00010                cell.number_format = 'yyyy-mm-dd'%%00010%%00010# Pass the table forward to the KNIME output port to keep the workflow active%%00010knio.output_tables[0] = knio.Table.from_pandas(df)"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="python3_command">
+                <entry key="used_variable" type="xstring" value=""/>
+                <entry key="used_variable_flawed" type="xboolean" value="false"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Max Outstanding"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Python Script"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Scripting Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python3.scripting.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.12.0.v202606171811"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python3.scripting.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.12.0.v202606171811"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Python environment"/>
+        <config key="Input object (pickled)"/>
+        <config key="Input table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output image"/>
+        <config key="Output object (pickled)"/>
+    </config>
+    <entry key="name" type="xstring" value="Python Script"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 6, Cols: 20"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="ca8be7d4-7477-4936-b04c-716c20a38014"/>
+    </config>
+</config>
