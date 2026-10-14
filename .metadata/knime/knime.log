@@ -3000,3 +3000,196 @@ java.io.IOException: Output file '/home/mayur/Documents/AdvITT Project/node_expo
 2026-10-14 13:17:49,132 : INFO  : python-output-redirector-132 :  : PythonScriptingSession : Python Script : 3:64 :   data = np.array(data, dtype=np.object_)
 2026-10-14 13:17:49,933 : INFO  : pool-287-thread-1 :  : DefaultPythonGateway : Python Script : 3:64 : Closing PythonGateway (PID=78554) from thread 'pool-287-thread-1'
 2026-10-14 13:17:49,934 : INFO  : KNIME-Worker-282-Python Script 3:64 :  : LocalNodeExecutionJob : Python Script : 3:64 : Python Script 3:64 End execute (1 sec)
+2026-10-14 13:18:16,826 : INFO  : python-gateway-closer-15 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=81708) from thread 'python-gateway-closer-15'
+2026-10-14 13:18:17,014 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x00007f585041a318 :  : FileUtil :  :  : Deleting 210 temporary files.
+2026-10-14 14:33:14,827 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-14 14:33:14,830 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-14 14:33:14,830 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-14 14:33:14,831 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-14 14:33:14,832 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-10-14 14:33:14,832 : INFO  : main :  : NodeLogger :  :  : # /home/mayur/Documents/AdvITT Project/.metadata/knime/knime.log
+2026-10-14 14:33:14,832 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-10-14 14:33:14,857 : INFO  : main :  : NodeLogger :  :  : # logging date=Wed Oct 14 14:33:14 IST 2026
+2026-10-14 14:33:14,857 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-10-14 14:33:14,857 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-10-14 14:33:14,858 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-10-14 14:33:14,858 : INFO  : main :  : NodeLogger :  :  : # os.name=Linux
+2026-10-14 14:33:14,858 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-10-14 14:33:14,858 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=8
+2026-10-14 14:33:14,858 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-10-14 14:33:14,863 : INFO  : main :  : NodeLogger :  :  : # host=mayurslinux
+2026-10-14 14:33:14,865 : INFO  : main :  : NodeLogger :  :  : # username=mayur
+2026-10-14 14:33:14,865 : INFO  : main :  : NodeLogger :  :  : # max mem=2048MB
+2026-10-14 14:33:14,867 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-10-14 14:33:14,876 : INFO  : main :  : NodeLogger :  :  : # KNID=11-071f87ecefb66b9a-01-1c4aa15bceec44fe
+2026-10-14 14:33:14,876 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-14 14:33:13,869 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-10-14 14:33:16,295 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Starting conda environment initialization during early startup
+2026-10-14 14:33:16,326 : INFO  : main :  : EarlyStartupCondaEnvironmentInstallation :  :  : Conda environment initialization completed successfully
+2026-10-14 14:33:19,685 : INFO  : main :  : StringHistory :  :  : History file '/home/mayur/Documents/AdvITT Project/.metadata/knime/history_database_drivers.txt' does not exist.
+2026-10-14 14:33:19,686 : INFO  : main :  : StringHistory :  :  : History file '/home/mayur/Documents/AdvITT Project/.metadata/knime/history_database_urls.txt' does not exist.
+2026-10-14 14:33:22,088 : ERROR : ForkJoinPool.commonPool-worker-1 :  : WelcomeAPEndpoint :  :  : Calling welcome page endpoint failed:tips-and-tricks.knime.com
+java.net.UnknownHostException: tips-and-tricks.knime.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.knime.product.rcp.intro.WelcomeAPEndpoint.performRequest(WelcomeAPEndpoint.java:179)
+	at org.knime.product.rcp.intro.WelcomeAPEndpoint.requestCategories(WelcomeAPEndpoint.java:147)
+	at org.knime.product.rcp.intro.WelcomeAPEndpoint.lambda$0(WelcomeAPEndpoint.java:119)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2026-10-14 14:33:22,223 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/home/mayur/Documents/AdvITT Project/.metadata/knime/history_string2date-formats.txt' does not exist.
+2026-10-14 14:33:22,235 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-10-14 14:33:22,236 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-10-14 14:33:22,251 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-14 14:33:23,099 : INFO  : main :  : StringHistory :  :  : History file '/home/mayur/Documents/AdvITT Project/.metadata/knime/history_org.knime.kerberos.name.txt' does not exist.
+2026-10-14 14:33:24,226 : INFO  : Thread-180 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-14 14:33:24,681 : ERROR : KNIME-Worker-0 :  : DesktopAPUtil :  :  : Could not check for updates
+java.io.IOException: update.knime.com, while checking updates for site at "https://update.knime.com/partner/5.12".
+	at org.knime.core.eclipseUtil.UpdateChecker.checkForNewRelease(UpdateChecker.java:201)
+	at org.knime.product.rcp.intro.UpdateDetector.checkForNewRelease(UpdateDetector.java:97)
+	at org.knime.ui.java.util.DesktopAPUtil.checkForUpdate(DesktopAPUtil.java:221)
+	at org.knime.gateway.impl.webui.UpdateStateProvider.lambda$0(UpdateStateProvider.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: java.net.UnknownHostException: update.knime.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.knime.core.eclipseUtil.UpdateChecker.checkForNewRelease(UpdateChecker.java:183)
+	... 7 more
+2026-10-14 14:33:25,484 : INFO  : ModalContext :  : GroupByNodeFactory : Tally_Connection : 3 : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-14 14:33:26,618 : WARN  : ModalContext :  : AbstractColumnarContainerTable : Python Script : 3:4 : Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: /tmp/knime_Tally_Connectio_17937/knime_container_20261014_5870027477454563427.knable -> /home/mayur/Documents/AdvITT Project/Tally_Connection/Python Script (#4)/port_1/data.zip: Invalid cross-device link
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:317)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.<init>(AbstractColumnarContainerTable.java:141)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader$SavedColumnarContainerTable.<init>(ColumnarContainerTableLoader.java:97)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader.load(ColumnarContainerTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:318)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9207)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9223)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:9109)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8973)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8894)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8867)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8704)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:200)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflowManager(DesktopAPUtil.java:171)
+	at org.knime.ui.java.util.CreateProject.lambda$1(CreateProject.java:146)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$10(DesktopAPUtil.java:422)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+2026-10-14 14:33:26,798 : INFO  : ModalContext :  : ColumnarPreferenceUtils : Python Script : 3:4 : Column Data Cache size is 1637 MB.
+2026-10-14 14:33:27,275 : INFO  : Node Repository Initializer :  : DatabaseDriverLoader :  :  : Could not load 'libJdbcOdbc.so' library which is known to be a problem under Linux when using the 'sun.jdbc.odbc.JdbcOdbcDriver'; that is, the driver is not loaded.
+2026-10-14 14:33:27,443 : WARN  : ModalContext :  : Node : Row Filter : 3:30 : Node created an empty data table.
+2026-10-14 14:33:27,568 : WARN  : ModalContext :  : Node : Row Filter : 3:52 : Node created an empty data table.
+2026-10-14 14:33:27,598 : WARN  : ModalContext :  : Node : GroupBy : 3:29 : Empty input table found
+2026-10-14 14:33:27,638 : WARN  : ModalContext :  : Node : GroupBy : 3:53 : Empty input table found
+2026-10-14 14:33:28,452 : WARN  : comm-pool-thread-2 :  : JsonRpcErrorResolver :  :  : An unexpected json rpc error occurred
+java.lang.IllegalStateException: K-AI is not connected to a hub. Select a hub on the AI Assistant preference page.
+	at org.knime.ai.assistant.java.UiStringsUtils.getUiStrings(UiStringsUtils.java:84)
+	at org.knime.ai.assistant.java.ChatBackend.getUiStrings(ChatBackend.java:278)
+	at java.base/java.util.Optional.map(Unknown Source)
+	at org.knime.gateway.impl.webui.service.DefaultKaiService.getUiStrings(DefaultKaiService.java:165)
+	at org.knime.gateway.impl.webui.jsonrpc.service.JsonRpcKaiServiceWrapper.getUiStrings(JsonRpcKaiServiceWrapper.java:105)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.invoke(JsonRpcBasicServer.java:478)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleObject(JsonRpcBasicServer.java:349)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleJsonNodeRequest(JsonRpcBasicServer.java:274)
+	at com.googlecode.jsonrpc4j.JsonRpcBasicServer.handleRequest(JsonRpcBasicServer.java:242)
+	at org.knime.gateway.impl.jsonrpc.JsonRpcRequestHandler.handle(JsonRpcRequestHandler.java:112)
+	at org.knime.ui.java.browser.lifecycle.Init.lambda$16(Init.java:347)
+	at com.equo.comm.common.MessageHandler.processReceivedEventMessage(MessageHandler.java:131)
+	at com.equo.comm.ee.provider.service.ChromiumService.receiveMessage(ChromiumService.java:98)
+	at com.equo.comm.ee.provider.CommunicationManagerChromiumImpl.receiveMessage(CommunicationManagerChromiumImpl.java:48)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.handleRequest(CommRouterHandler.java:33)
+	at com.equo.chromium.swt.internal.spi.CommRouterHandler.lambda$1(CommRouterHandler.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-14 14:33:28,900 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-14 14:33:28,902 : ERROR : Thread-1232 :  : KnimeBrowserView :  :  : %cerror%c Failed to fetch UI strings from AI provider 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-14 14:33:29,512 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/home/mayur/Documents/AdvITT Project/.metadata/knime/history_createFileNameHistoryKey.txt' does not exist.
+2026-10-14 14:33:32,055 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-14 14:33:33,795 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-14 14:33:33,797 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-14 14:33:33,811 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-14 14:33:33,823 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-14 14:33:33,955 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-14 14:33:33,957 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-14 14:33:34,014 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-14 14:33:34,016 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-14 14:33:34,025 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-14 14:34:51,395 : ERROR : Thread-1875 :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      TypeError: Cannot read properties of null (reading 'shadowRoot') (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
