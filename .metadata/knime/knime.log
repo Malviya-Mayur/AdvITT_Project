@@ -3193,3 +3193,387 @@ java.lang.IllegalStateException: K-AI is not connected to a hub. Select a hub on
       font-weight: bold;
       padding: 2px 0.5em;
       TypeError: Cannot read properties of null (reading 'shadowRoot') (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-14 14:38:47,154 : WARN  : Thread-2873 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:39:11,793 : INFO  : KNIME-Worker-2-Variable Creator 3:63 :  : LocalNodeExecutionJob : Variable Creator : 3:63 : Variable Creator 3:63 End execute (0 secs)
+2026-10-14 14:39:11,801 : INFO  : KNIME-Worker-1-Table Creator 3:5 :  : LocalNodeExecutionJob : Table Creator : 3:5 : Table Creator 3:5 End execute (0 secs)
+2026-10-14 14:39:13,498 : INFO  : KNIME-Worker-2-Python Script 3:4 :  : PythonScriptingSession : Python Script : 3:4 : PythonScriptingSession created gateway (hash=6ab83401) on thread 'KNIME-Worker-2-Python Script 3:4'
+2026-10-14 14:39:14,292 : INFO  : KNIME-Worker-3-Python Script 3:19 :  : PythonScriptingSession : Python Script : 3:19 : PythonScriptingSession created gateway (hash=13c2b40d) on thread 'KNIME-Worker-3-Python Script 3:19'
+2026-10-14 14:39:15,461 : INFO  : pool-22-thread-1 :  : DefaultPythonGateway : Python Script : 3:4 : Closing PythonGateway (PID=8305) from thread 'pool-22-thread-1'
+2026-10-14 14:39:15,462 : INFO  : KNIME-Worker-2-Python Script 3:4 :  : LocalNodeExecutionJob : Python Script : 3:4 : Python Script 3:4 End execute (3 secs)
+2026-10-14 14:39:15,804 : INFO  : KNIME-Worker-1-String to Date&Time 3:7 :  : LocalNodeExecutionJob : String to Date&Time : 3:7 : String to Date&Time 3:7 End execute (0 secs)
+2026-10-14 14:39:15,857 : INFO  : KNIME-Worker-2-Date&Time to String 3:15 :  : LocalNodeExecutionJob : Date&Time to String : 3:15 : Date&Time to String 3:15 End execute (0 secs)
+2026-10-14 14:39:15,906 : INFO  : KNIME-Worker-1-Math Formula 3:42 :  : LocalNodeExecutionJob : Math Formula : 3:42 : Math Formula 3:42 End execute (0 secs)
+2026-10-14 14:39:15,998 : INFO  : KNIME-Worker-2-Column Resorter 3:14 :  : LocalNodeExecutionJob : Column Resorter : 3:14 : Column Resorter 3:14 End execute (0 secs)
+2026-10-14 14:39:16,103 : INFO  : KNIME-Worker-9-Python Script 3:60 :  : PythonScriptingSession : Python Script : 3:60 : PythonScriptingSession created gateway (hash=77e72d92) on thread 'KNIME-Worker-9-Python Script 3:60'
+2026-10-14 14:39:16,122 : INFO  : KNIME-Worker-10-Python Script 3:61 :  : PythonScriptingSession : Python Script : 3:61 : PythonScriptingSession created gateway (hash=203c8bda) on thread 'KNIME-Worker-10-Python Script 3:61'
+2026-10-14 14:39:16,225 : INFO  : KNIME-Worker-13-Row Filter 3:52 :  : RowFilterNodeModel : Row Filter : 3:52 : The result table at port 0 contains no rows
+2026-10-14 14:39:16,231 : WARN  : KNIME-Worker-13-Row Filter 3:52 :  : Node : Row Filter : 3:52 : Node created an empty data table.
+2026-10-14 14:39:16,232 : INFO  : KNIME-Worker-13-Row Filter 3:52 :  : LocalNodeExecutionJob : Row Filter : 3:52 : Row Filter 3:52 End execute (0 secs)
+2026-10-14 14:39:16,238 : INFO  : KNIME-Worker-14-Row Filter 3:48 :  : RowFilterNodeModel : Row Filter : 3:48 : The result table at port 0 contains no rows
+2026-10-14 14:39:16,239 : WARN  : KNIME-Worker-14-Row Filter 3:48 :  : Node : Row Filter : 3:48 : Node created an empty data table.
+2026-10-14 14:39:16,241 : INFO  : KNIME-Worker-14-Row Filter 3:48 :  : LocalNodeExecutionJob : Row Filter : 3:48 : Row Filter 3:48 End execute (0 secs)
+2026-10-14 14:39:16,244 : INFO  : KNIME-Worker-12-Row Filter 3:55 :  : RowFilterNodeModel : Row Filter : 3:55 : The result table at port 0 contains no rows
+2026-10-14 14:39:16,247 : WARN  : KNIME-Worker-12-Row Filter 3:55 :  : Node : Row Filter : 3:55 : Node created an empty data table.
+2026-10-14 14:39:16,248 : INFO  : KNIME-Worker-12-Row Filter 3:55 :  : LocalNodeExecutionJob : Row Filter : 3:55 : Row Filter 3:55 End execute (0 secs)
+2026-10-14 14:39:16,248 : INFO  : KNIME-Worker-6-Row Filter 3:30 :  : LocalNodeExecutionJob : Row Filter : 3:30 : Row Filter 3:30 End execute (0 secs)
+2026-10-14 14:39:16,249 : INFO  : KNIME-Worker-7-Row Filter 3:39 :  : LocalNodeExecutionJob : Row Filter : 3:39 : Row Filter 3:39 End execute (0 secs)
+2026-10-14 14:39:16,251 : INFO  : KNIME-Worker-11-Row Filter 3:59 :  : LocalNodeExecutionJob : Row Filter : 3:59 : Row Filter 3:59 End execute (0 secs)
+2026-10-14 14:39:16,251 : INFO  : KNIME-Worker-1-Row Filter 3:6 :  : LocalNodeExecutionJob : Row Filter : 3:6 : Row Filter 3:6 End execute (0 secs)
+2026-10-14 14:39:16,252 : INFO  : KNIME-Worker-8-Row Filter 3:34 :  : LocalNodeExecutionJob : Row Filter : 3:34 : Row Filter 3:34 End execute (0 secs)
+2026-10-14 14:39:16,293 : WARN  : KNIME-Worker-2-GroupBy 3:53 :  : Node : GroupBy : 3:53 : Empty input table found
+2026-10-14 14:39:16,299 : WARN  : KNIME-Worker-13-GroupBy 3:49 :  : Node : GroupBy : 3:49 : Empty input table found
+2026-10-14 14:39:16,301 : INFO  : KNIME-Worker-2-GroupBy 3:53 :  : LocalNodeExecutionJob : GroupBy : 3:53 : GroupBy 3:53 End execute (0 secs)
+2026-10-14 14:39:16,307 : INFO  : KNIME-Worker-13-GroupBy 3:49 :  : LocalNodeExecutionJob : GroupBy : 3:49 : GroupBy 3:49 End execute (0 secs)
+2026-10-14 14:39:16,319 : INFO  : KNIME-Worker-5-GroupBy 3:25 :  : LocalNodeExecutionJob : GroupBy : 3:25 : GroupBy 3:25 End execute (0 secs)
+2026-10-14 14:39:16,358 : INFO  : KNIME-Worker-15-GroupBy 3:41 :  : LocalNodeExecutionJob : GroupBy : 3:41 : GroupBy 3:41 End execute (0 secs)
+2026-10-14 14:39:16,367 : INFO  : KNIME-Worker-11-GroupBy 3:32 :  : LocalNodeExecutionJob : GroupBy : 3:32 : GroupBy 3:32 End execute (0 secs)
+2026-10-14 14:39:16,371 : INFO  : KNIME-Worker-7-GroupBy 3:9 :  : LocalNodeExecutionJob : GroupBy : 3:9 : GroupBy 3:9 End execute (0 secs)
+2026-10-14 14:39:16,407 : INFO  : KNIME-Worker-14-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-14 14:39:16,425 : INFO  : KNIME-Worker-6-GroupBy 3:43 :  : LocalNodeExecutionJob : GroupBy : 3:43 : GroupBy 3:43 End execute (0 secs)
+2026-10-14 14:39:16,429 : INFO  : KNIME-Worker-12-GroupBy 3:46 :  : LocalNodeExecutionJob : GroupBy : 3:46 : GroupBy 3:46 End execute (0 secs)
+2026-10-14 14:39:16,454 : INFO  : KNIME-Worker-1-Line Plot 3:40 :  : LocalNodeExecutionJob : Line Plot : 3:40 : Line Plot 3:40 End execute (0 secs)
+2026-10-14 14:39:16,461 : INFO  : KNIME-Worker-8-Row Filter 3:33 :  : LocalNodeExecutionJob : Row Filter : 3:33 : Row Filter 3:33 End execute (0 secs)
+2026-10-14 14:39:16,483 : INFO  : KNIME-Worker-2-Bar Chart 3:12 :  : LocalNodeExecutionJob : Bar Chart : 3:12 : Bar Chart 3:12 End execute (0 secs)
+2026-10-14 14:39:16,526 : INFO  : KNIME-Worker-13-Bar Chart 3:28 :  : LocalNodeExecutionJob : Bar Chart : 3:28 : Bar Chart 3:28 End execute (0 secs)
+2026-10-14 14:39:16,539 : INFO  : KNIME-Worker-15-Table View 3:45 :  : LocalNodeExecutionJob : Table View : 3:45 : Table View 3:45 End execute (0 secs)
+2026-10-14 14:39:16,542 : INFO  : KNIME-Worker-5-Pie Chart 3:44 :  : LocalNodeExecutionJob : Pie Chart : 3:44 : Pie Chart 3:44 End execute (0 secs)
+2026-10-14 14:39:17,224 : INFO  : python-output-redirector-2 :  : PythonScriptingSession : Python Script : 3:60 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:17,224 : INFO  : python-output-redirector-2 :  : PythonScriptingSession : Python Script : 3:60 :   taken = take(
+2026-10-14 14:39:17,260 : INFO  : pool-28-thread-1 :  : DefaultPythonGateway : Python Script : 3:60 : Closing PythonGateway (PID=8289) from thread 'pool-28-thread-1'
+2026-10-14 14:39:17,264 : INFO  : KNIME-Worker-9-Python Script 3:60 :  : LocalNodeExecutionJob : Python Script : 3:60 : Python Script 3:60 End execute (1 sec)
+2026-10-14 14:39:17,343 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:61 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:17,344 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:61 :   taken = take(
+2026-10-14 14:39:17,344 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:61 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:17,344 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:61 :   taken = take(
+2026-10-14 14:39:17,444 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:61 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:17,445 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:61 :   taken = take(
+2026-10-14 14:39:17,511 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:19 : NOTE: Opening Stock came out as 0. Check that your stock items have values and the dates are right.
+2026-10-14 14:39:17,511 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:19 : Ledgers: 17 | Vouchers used: 154 | Opening Stock: 0.00
+2026-10-14 14:39:17,511 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:19 : Skipped non-posting vouchers: {'Stock Journal': 1}
+2026-10-14 14:39:17,511 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:19 : Sum Opening_Net (should be 0): 0.00
+2026-10-14 14:39:17,511 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:19 : Sum Closing_Net (should be 0): 0.00
+2026-10-14 14:39:17,511 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:19 : Closing Debit total 18,470,467.36 | Closing Credit total 18,470,467.36
+2026-10-14 14:39:17,512 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:19 : Ledgers with Check_Diff != 0: 0
+2026-10-14 14:39:17,546 : INFO  : pool-31-thread-1 :  : DefaultPythonGateway : Python Script : 3:61 : Closing PythonGateway (PID=8341) from thread 'pool-31-thread-1'
+2026-10-14 14:39:17,548 : INFO  : KNIME-Worker-10-Python Script 3:61 :  : LocalNodeExecutionJob : Python Script : 3:61 : Python Script 3:61 End execute (1 sec)
+2026-10-14 14:39:17,794 : INFO  : pool-34-thread-1 :  : DefaultPythonGateway : Python Script : 3:19 : Closing PythonGateway (PID=8322) from thread 'pool-34-thread-1'
+2026-10-14 14:39:17,796 : INFO  : KNIME-Worker-3-Python Script 3:19 :  : LocalNodeExecutionJob : Python Script : 3:19 : Python Script 3:19 End execute (5 secs)
+2026-10-14 14:39:17,840 : WARN  : KNIME-Worker-3-Python Script 3:19 :  : Node : GroupBy : 3:20 : No grouping column included. Aggregate complete table.
+2026-10-14 14:39:17,934 : WARN  : KNIME-Worker-3-Python Script 3:19 :  : Node : GroupBy : 3:47 : No grouping column included. Aggregate complete table.
+2026-10-14 14:39:17,987 : INFO  : KNIME-Worker-14-Column Resorter 3:38 :  : LocalNodeExecutionJob : Column Resorter : 3:38 : Column Resorter 3:38 End execute (0 secs)
+2026-10-14 14:39:18,041 : WARN  : KNIME-Worker-14-Column Resorter 3:38 :  : Node : GroupBy : 3:20 : No grouping column included. Aggregate complete table.
+2026-10-14 14:39:18,130 : INFO  : KNIME-Worker-2-Row Filter 3:23 :  : LocalNodeExecutionJob : Row Filter : 3:23 : Row Filter 3:23 End execute (0 secs)
+2026-10-14 14:39:18,132 : INFO  : KNIME-Worker-12-Row Filter 3:56 :  : RowFilterNodeModel : Row Filter : 3:56 : The result table at port 0 contains no rows
+2026-10-14 14:39:18,132 : WARN  : KNIME-Worker-12-Row Filter 3:56 :  : Node : Row Filter : 3:56 : Node created an empty data table.
+2026-10-14 14:39:18,131 : INFO  : KNIME-Worker-8-Row Filter 3:22 :  : LocalNodeExecutionJob : Row Filter : 3:22 : Row Filter 3:22 End execute (0 secs)
+2026-10-14 14:39:18,137 : INFO  : KNIME-Worker-12-Row Filter 3:56 :  : LocalNodeExecutionJob : Row Filter : 3:56 : Row Filter 3:56 End execute (0 secs)
+2026-10-14 14:39:18,134 : INFO  : KNIME-Worker-1-Row Filter 3:57 :  : LocalNodeExecutionJob : Row Filter : 3:57 : Row Filter 3:57 End execute (0 secs)
+2026-10-14 14:39:18,139 : INFO  : KNIME-Worker-6-Row Filter 3:36 :  : LocalNodeExecutionJob : Row Filter : 3:36 : Row Filter 3:36 End execute (0 secs)
+2026-10-14 14:39:18,143 : INFO  : KNIME-Worker-15-GroupBy 3:20 :  : LocalNodeExecutionJob : GroupBy : 3:20 : GroupBy 3:20 End execute (0 secs)
+2026-10-14 14:39:18,144 : INFO  : KNIME-Worker-13-Row Filter 3:21 :  : LocalNodeExecutionJob : Row Filter : 3:21 : Row Filter 3:21 End execute (0 secs)
+2026-10-14 14:39:18,147 : INFO  : KNIME-Worker-11-Row Filter 3:24 :  : LocalNodeExecutionJob : Row Filter : 3:24 : Row Filter 3:24 End execute (0 secs)
+2026-10-14 14:39:18,194 : INFO  : KNIME-Worker-9-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=301c3adf) on thread 'KNIME-Worker-9-Python Script 3:54'
+2026-10-14 14:39:18,200 : INFO  : KNIME-Worker-10-Column Filter 3:37 :  : LocalNodeExecutionJob : Column Filter : 3:37 : Column Filter 3:37 End execute (0 secs)
+2026-10-14 14:39:18,236 : INFO  : KNIME-Worker-5-Joiner 3:26 :  : LocalNodeExecutionJob : Joiner : 3:26 : Joiner 3:26 End execute (0 secs)
+2026-10-14 14:39:18,256 : INFO  : KNIME-Worker-4-Math Formula 3:27 :  : LocalNodeExecutionJob : Math Formula : 3:27 : Math Formula 3:27 End execute (0 secs)
+2026-10-14 14:39:18,257 : WARN  : KNIME-Worker-4-Math Formula 3:27 :  : Node : GroupBy : 3:47 : No grouping column included. Aggregate complete table.
+2026-10-14 14:39:18,267 : INFO  : KNIME-Worker-3-GroupBy 3:47 :  : LocalNodeExecutionJob : GroupBy : 3:47 : GroupBy 3:47 End execute (0 secs)
+2026-10-14 14:39:18,883 : WARN  : KNIME-Worker-9-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 74, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+2026-10-14 14:39:18,885 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:18,885 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:39:18,886 : INFO  : KNIME-Worker-9-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=8399) from thread 'KNIME-Worker-9-Python Script 3:54'
+2026-10-14 14:39:18,905 : ERROR : KNIME-Worker-9-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+org.knime.core.node.KNIMEException: Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-14 14:39:19,974 : INFO  : KNIME-Worker-7-Python Script 3:58 :  : PythonScriptingSession : Python Script : 3:58 : PythonScriptingSession created gateway (hash=3f83da45) on thread 'KNIME-Worker-7-Python Script 3:58'
+2026-10-14 14:39:20,575 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:20,576 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:39:20,676 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:20,677 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:39:20,677 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:20,677 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:39:20,777 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:20,777 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:39:20,877 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:39:20,878 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:39:20,901 : INFO  : pool-44-thread-1 :  : DefaultPythonGateway : Python Script : 3:58 : Closing PythonGateway (PID=8495) from thread 'pool-44-thread-1'
+2026-10-14 14:39:20,903 : INFO  : KNIME-Worker-7-Python Script 3:58 :  : PythonScriptNodeModel : Python Script : 3:58 : The result table at port 0 contains no rows
+2026-10-14 14:39:20,903 : WARN  : KNIME-Worker-7-Python Script 3:58 :  : Node : Python Script : 3:58 : Node created an empty data table.
+2026-10-14 14:39:20,904 : INFO  : KNIME-Worker-7-Python Script 3:58 :  : LocalNodeExecutionJob : Python Script : 3:58 : Python Script 3:58 End execute (2 secs)
+2026-10-14 14:39:23,987 : WARN  : Thread-3821 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:39:26,040 : ERROR : Thread-4205 :  : KnimeBrowserView :  :  : %cerror%c UI Extension Renderer:: Unexpected error sending response to iframe 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-14 14:39:32,908 : INFO  : KNIME-Worker-8-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=19aa60cd) on thread 'KNIME-Worker-8-Python Script 3:54'
+2026-10-14 14:39:33,495 : WARN  : KNIME-Worker-8-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 74, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+2026-10-14 14:39:33,495 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:33,495 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:39:33,496 : INFO  : KNIME-Worker-8-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=8427) from thread 'KNIME-Worker-8-Python Script 3:54'
+2026-10-14 14:39:33,521 : ERROR : KNIME-Worker-8-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+org.knime.core.node.KNIMEException: Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-14 14:39:36,049 : INFO  : KNIME-Worker-1-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=21fb52ca) on thread 'KNIME-Worker-1-Python Script 3:54'
+2026-10-14 14:39:36,637 : WARN  : KNIME-Worker-1-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 74, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+2026-10-14 14:39:36,638 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:39:36,638 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:39:36,638 : INFO  : KNIME-Worker-1-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=8470) from thread 'KNIME-Worker-1-Python Script 3:54'
+2026-10-14 14:39:36,658 : ERROR : KNIME-Worker-1-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+org.knime.core.node.KNIMEException: Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-14 14:40:13,475 : WARN  : Thread-4689 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:40:15,318 : INFO  : KNIME-Worker-15-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=660fb579) on thread 'KNIME-Worker-15-Python Script 3:54'
+2026-10-14 14:40:16,094 : WARN  : KNIME-Worker-15-Python Script 3:54 :  : PythonScriptNodeModel : Python Script : 3:54 : Traceback (most recent call last):
+  File "<string>", line 74, in <module>
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6212, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 6261, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+2026-10-14 14:40:16,095 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:16,095 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:40:16,096 : INFO  : KNIME-Worker-15-Python Script 3:54 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=8512) from thread 'KNIME-Worker-15-Python Script 3:54'
+2026-10-14 14:40:16,126 : ERROR : KNIME-Worker-15-Python Script 3:54 :  : Node : Python Script : 3:54 : Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+org.knime.core.node.KNIMEException: Execute failed: KeyError: "None of [Index(['Ledger_Name', 'Ledger_Group', 'Opening_Balance',\n       'Max_Outstanding_Payable'],\n      dtype='object')] are in the [columns]"
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.checkExecutionAnswer(PythonScriptNodeModel.java:290)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.runUserScript(PythonScriptNodeModel.java:278)
+	at org.knime.python3.scripting.nodes2.PythonScriptNodeModel.execute(PythonScriptNodeModel.java:212)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-14 14:40:28,993 : INFO  : KNIME-Worker-11-Variable Creator 3:63 :  : LocalNodeExecutionJob : Variable Creator : 3:63 : Variable Creator 3:63 End execute (0 secs)
+2026-10-14 14:40:28,995 : INFO  : KNIME-Worker-10-Table Creator 3:5 :  : LocalNodeExecutionJob : Table Creator : 3:5 : Table Creator 3:5 End execute (0 secs)
+2026-10-14 14:40:28,999 : INFO  : KNIME-Worker-4-Python Script 3:19 :  : PythonScriptingSession : Python Script : 3:19 : PythonScriptingSession created gateway (hash=586d6739) on thread 'KNIME-Worker-4-Python Script 3:19'
+2026-10-14 14:40:29,000 : INFO  : KNIME-Worker-5-Python Script 3:4 :  : PythonScriptingSession : Python Script : 3:4 : PythonScriptingSession created gateway (hash=665863b5) on thread 'KNIME-Worker-5-Python Script 3:4'
+2026-10-14 14:40:38,572 : INFO  : pool-57-thread-1 :  : DefaultPythonGateway : Python Script : 3:4 : Closing PythonGateway (PID=8608) from thread 'pool-57-thread-1'
+2026-10-14 14:40:38,573 : INFO  : KNIME-Worker-5-Python Script 3:4 :  : LocalNodeExecutionJob : Python Script : 3:4 : Python Script 3:4 End execute (9 secs)
+2026-10-14 14:40:38,911 : INFO  : KNIME-Worker-9-String to Date&Time 3:7 :  : LocalNodeExecutionJob : String to Date&Time : 3:7 : String to Date&Time 3:7 End execute (0 secs)
+2026-10-14 14:40:38,932 : INFO  : KNIME-Worker-2-GroupBy 3:25 :  : LocalNodeExecutionJob : GroupBy : 3:25 : GroupBy 3:25 End execute (0 secs)
+2026-10-14 14:40:39,118 : INFO  : KNIME-Worker-7-Date&Time to String 3:15 :  : LocalNodeExecutionJob : Date&Time to String : 3:15 : Date&Time to String 3:15 End execute (0 secs)
+2026-10-14 14:40:39,289 : INFO  : KNIME-Worker-12-Math Formula 3:42 :  : LocalNodeExecutionJob : Math Formula : 3:42 : Math Formula 3:42 End execute (0 secs)
+2026-10-14 14:40:39,365 : INFO  : KNIME-Worker-8-Column Resorter 3:14 :  : LocalNodeExecutionJob : Column Resorter : 3:14 : Column Resorter 3:14 End execute (0 secs)
+2026-10-14 14:40:39,436 : INFO  : KNIME-Worker-11-Python Script 3:60 :  : PythonScriptingSession : Python Script : 3:60 : PythonScriptingSession created gateway (hash=13ed29bd) on thread 'KNIME-Worker-11-Python Script 3:60'
+2026-10-14 14:40:39,471 : INFO  : KNIME-Worker-9-Row Filter 3:48 :  : LocalNodeExecutionJob : Row Filter : 3:48 : Row Filter 3:48 End execute (0 secs)
+2026-10-14 14:40:39,495 : INFO  : KNIME-Worker-5-Row Filter 3:55 :  : LocalNodeExecutionJob : Row Filter : 3:55 : Row Filter 3:55 End execute (0 secs)
+2026-10-14 14:40:39,515 : INFO  : KNIME-Worker-15-Row Filter 3:34 :  : LocalNodeExecutionJob : Row Filter : 3:34 : Row Filter 3:34 End execute (0 secs)
+2026-10-14 14:40:39,529 : INFO  : KNIME-Worker-6-Row Filter 3:6 :  : LocalNodeExecutionJob : Row Filter : 3:6 : Row Filter 3:6 End execute (0 secs)
+2026-10-14 14:40:39,538 : INFO  : KNIME-Worker-14-Row Filter 3:59 :  : LocalNodeExecutionJob : Row Filter : 3:59 : Row Filter 3:59 End execute (0 secs)
+2026-10-14 14:40:39,542 : INFO  : KNIME-Worker-10-Python Script 3:61 :  : PythonScriptingSession : Python Script : 3:61 : PythonScriptingSession created gateway (hash=3a48c897) on thread 'KNIME-Worker-10-Python Script 3:61'
+2026-10-14 14:40:39,601 : INFO  : KNIME-Worker-7-GroupBy 3:49 :  : LocalNodeExecutionJob : GroupBy : 3:49 : GroupBy 3:49 End execute (0 secs)
+2026-10-14 14:40:39,608 : INFO  : KNIME-Worker-12-GroupBy 3:32 :  : LocalNodeExecutionJob : GroupBy : 3:32 : GroupBy 3:32 End execute (0 secs)
+2026-10-14 14:40:39,610 : INFO  : KNIME-Worker-8-GroupBy 3:9 :  : LocalNodeExecutionJob : GroupBy : 3:9 : GroupBy 3:9 End execute (0 secs)
+2026-10-14 14:40:39,643 : INFO  : KNIME-Worker-2-Row Filter 3:52 :  : RowFilterNodeModel : Row Filter : 3:52 : The result table at port 0 contains no rows
+2026-10-14 14:40:39,643 : WARN  : KNIME-Worker-2-Row Filter 3:52 :  : Node : Row Filter : 3:52 : Node created an empty data table.
+2026-10-14 14:40:39,647 : INFO  : KNIME-Worker-2-Row Filter 3:52 :  : LocalNodeExecutionJob : Row Filter : 3:52 : Row Filter 3:52 End execute (0 secs)
+2026-10-14 14:40:39,668 : INFO  : KNIME-Worker-1-Row Filter 3:30 :  : RowFilterNodeModel : Row Filter : 3:30 : The result table at port 0 contains no rows
+2026-10-14 14:40:39,668 : WARN  : KNIME-Worker-1-Row Filter 3:30 :  : Node : Row Filter : 3:30 : Node created an empty data table.
+2026-10-14 14:40:39,668 : INFO  : KNIME-Worker-1-Row Filter 3:30 :  : LocalNodeExecutionJob : Row Filter : 3:30 : Row Filter 3:30 End execute (0 secs)
+2026-10-14 14:40:39,669 : INFO  : KNIME-Worker-13-Row Filter 3:39 :  : LocalNodeExecutionJob : Row Filter : 3:39 : Row Filter 3:39 End execute (0 secs)
+2026-10-14 14:40:39,691 : WARN  : KNIME-Worker-6-GroupBy 3:53 :  : Node : GroupBy : 3:53 : Empty input table found
+2026-10-14 14:40:39,698 : INFO  : KNIME-Worker-6-GroupBy 3:53 :  : LocalNodeExecutionJob : GroupBy : 3:53 : GroupBy 3:53 End execute (0 secs)
+2026-10-14 14:40:39,700 : WARN  : KNIME-Worker-14-GroupBy 3:29 :  : Node : GroupBy : 3:29 : Empty input table found
+2026-10-14 14:40:39,706 : INFO  : KNIME-Worker-14-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-14 14:40:39,731 : INFO  : KNIME-Worker-15-Bar Chart 3:28 :  : LocalNodeExecutionJob : Bar Chart : 3:28 : Bar Chart 3:28 End execute (0 secs)
+2026-10-14 14:40:39,746 : INFO  : KNIME-Worker-8-GroupBy 3:41 :  : LocalNodeExecutionJob : GroupBy : 3:41 : GroupBy 3:41 End execute (0 secs)
+2026-10-14 14:40:39,767 : INFO  : KNIME-Worker-7-GroupBy 3:46 :  : LocalNodeExecutionJob : GroupBy : 3:46 : GroupBy 3:46 End execute (0 secs)
+2026-10-14 14:40:39,773 : INFO  : KNIME-Worker-12-GroupBy 3:43 :  : LocalNodeExecutionJob : GroupBy : 3:43 : GroupBy 3:43 End execute (0 secs)
+2026-10-14 14:40:39,783 : INFO  : KNIME-Worker-5-Bar Chart 3:12 :  : LocalNodeExecutionJob : Bar Chart : 3:12 : Bar Chart 3:12 End execute (0 secs)
+2026-10-14 14:40:39,794 : INFO  : KNIME-Worker-14-Pie Chart 3:44 :  : LocalNodeExecutionJob : Pie Chart : 3:44 : Pie Chart 3:44 End execute (0 secs)
+2026-10-14 14:40:39,813 : INFO  : KNIME-Worker-2-Table View 3:45 :  : LocalNodeExecutionJob : Table View : 3:45 : Table View 3:45 End execute (0 secs)
+2026-10-14 14:40:39,817 : INFO  : KNIME-Worker-1-Line Plot 3:40 :  : LocalNodeExecutionJob : Line Plot : 3:40 : Line Plot 3:40 End execute (0 secs)
+2026-10-14 14:40:39,821 : INFO  : KNIME-Worker-9-Row Filter 3:33 :  : LocalNodeExecutionJob : Row Filter : 3:33 : Row Filter 3:33 End execute (0 secs)
+2026-10-14 14:40:40,549 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:60 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:40,550 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:60 :   taken = take(
+2026-10-14 14:40:40,550 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:60 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:40,550 : INFO  : python-output-redirector-1 :  : PythonScriptingSession : Python Script : 3:60 :   taken = take(
+2026-10-14 14:40:40,582 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:61 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:40,583 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:61 :   taken = take(
+2026-10-14 14:40:40,583 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:61 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:40,583 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:61 :   taken = take(
+2026-10-14 14:40:40,631 : INFO  : pool-62-thread-1 :  : DefaultPythonGateway : Python Script : 3:60 : Closing PythonGateway (PID=9428) from thread 'pool-62-thread-1'
+2026-10-14 14:40:40,633 : INFO  : KNIME-Worker-11-Python Script 3:60 :  : LocalNodeExecutionJob : Python Script : 3:60 : Python Script 3:60 End execute (1 sec)
+2026-10-14 14:40:40,684 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:61 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:40,684 : INFO  : python-output-redirector-11 :  : PythonScriptingSession : Python Script : 3:61 :   taken = take(
+2026-10-14 14:40:40,747 : INFO  : pool-66-thread-1 :  : DefaultPythonGateway : Python Script : 3:61 : Closing PythonGateway (PID=9477) from thread 'pool-66-thread-1'
+2026-10-14 14:40:40,749 : INFO  : KNIME-Worker-10-Python Script 3:61 :  : LocalNodeExecutionJob : Python Script : 3:61 : Python Script 3:61 End execute (1 sec)
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 : NOTE: Opening Stock came out as 0. Check that your stock items have values and the dates are right.
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 : Ledgers: 144 | Vouchers used: 2015 | Opening Stock: 0.00
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 : Sum Opening_Net (should be 0): 0.00
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 : Sum Closing_Net (should be 0): 0.00
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 : Closing Debit total 76,296,194.00 | Closing Credit total 76,296,194.00
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 : Ledgers with Check_Diff != 0: 1
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 :   Stock-in-Hand: Check_Diff = -800,000.00
+2026-10-14 14:40:56,751 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:19 :     no single voucher line equals this difference
+2026-10-14 14:40:56,878 : INFO  : pool-70-thread-1 :  : DefaultPythonGateway : Python Script : 3:19 : Closing PythonGateway (PID=8578) from thread 'pool-70-thread-1'
+2026-10-14 14:40:56,879 : INFO  : KNIME-Worker-4-Python Script 3:19 :  : LocalNodeExecutionJob : Python Script : 3:19 : Python Script 3:19 End execute (27 secs)
+2026-10-14 14:40:56,899 : WARN  : KNIME-Worker-4-Python Script 3:19 :  : Node : GroupBy : 3:20 : No grouping column included. Aggregate complete table.
+2026-10-14 14:40:56,916 : WARN  : KNIME-Worker-4-Python Script 3:19 :  : Node : GroupBy : 3:47 : No grouping column included. Aggregate complete table.
+2026-10-14 14:40:56,947 : INFO  : KNIME-Worker-15-Column Resorter 3:38 :  : LocalNodeExecutionJob : Column Resorter : 3:38 : Column Resorter 3:38 End execute (0 secs)
+2026-10-14 14:40:56,968 : WARN  : KNIME-Worker-15-Column Resorter 3:38 :  : Node : GroupBy : 3:20 : No grouping column included. Aggregate complete table.
+2026-10-14 14:40:57,004 : INFO  : KNIME-Worker-1-GroupBy 3:20 :  : LocalNodeExecutionJob : GroupBy : 3:20 : GroupBy 3:20 End execute (0 secs)
+2026-10-14 14:40:57,006 : INFO  : KNIME-Worker-6-Row Filter 3:36 :  : LocalNodeExecutionJob : Row Filter : 3:36 : Row Filter 3:36 End execute (0 secs)
+2026-10-14 14:40:57,011 : INFO  : KNIME-Worker-11-Column Filter 3:37 :  : LocalNodeExecutionJob : Column Filter : 3:37 : Column Filter 3:37 End execute (0 secs)
+2026-10-14 14:40:57,013 : INFO  : KNIME-Worker-7-Row Filter 3:24 :  : LocalNodeExecutionJob : Row Filter : 3:24 : Row Filter 3:24 End execute (0 secs)
+2026-10-14 14:40:57,015 : INFO  : KNIME-Worker-8-Row Filter 3:56 :  : LocalNodeExecutionJob : Row Filter : 3:56 : Row Filter 3:56 End execute (0 secs)
+2026-10-14 14:40:57,015 : INFO  : KNIME-Worker-2-Row Filter 3:23 :  : LocalNodeExecutionJob : Row Filter : 3:23 : Row Filter 3:23 End execute (0 secs)
+2026-10-14 14:40:57,015 : INFO  : KNIME-Worker-12-Row Filter 3:57 :  : LocalNodeExecutionJob : Row Filter : 3:57 : Row Filter 3:57 End execute (0 secs)
+2026-10-14 14:40:57,016 : INFO  : KNIME-Worker-14-Row Filter 3:21 :  : LocalNodeExecutionJob : Row Filter : 3:21 : Row Filter 3:21 End execute (0 secs)
+2026-10-14 14:40:57,017 : INFO  : KNIME-Worker-5-Row Filter 3:22 :  : LocalNodeExecutionJob : Row Filter : 3:22 : Row Filter 3:22 End execute (0 secs)
+2026-10-14 14:40:57,022 : INFO  : KNIME-Worker-9-Joiner 3:26 :  : LocalNodeExecutionJob : Joiner : 3:26 : Joiner 3:26 End execute (0 secs)
+2026-10-14 14:40:57,054 : INFO  : KNIME-Worker-10-Python Script 3:58 :  : PythonScriptingSession : Python Script : 3:58 : PythonScriptingSession created gateway (hash=4d627de) on thread 'KNIME-Worker-10-Python Script 3:58'
+2026-10-14 14:40:57,055 : INFO  : KNIME-Worker-13-Python Script 3:54 :  : PythonScriptingSession : Python Script : 3:54 : PythonScriptingSession created gateway (hash=3545e618) on thread 'KNIME-Worker-13-Python Script 3:54'
+2026-10-14 14:40:57,062 : INFO  : KNIME-Worker-3-Math Formula 3:27 :  : LocalNodeExecutionJob : Math Formula : 3:27 : Math Formula 3:27 End execute (0 secs)
+2026-10-14 14:40:57,066 : WARN  : KNIME-Worker-3-Math Formula 3:27 :  : Node : GroupBy : 3:47 : No grouping column included. Aggregate complete table.
+2026-10-14 14:40:57,078 : INFO  : KNIME-Worker-4-GroupBy 3:47 :  : LocalNodeExecutionJob : GroupBy : 3:47 : GroupBy 3:47 End execute (0 secs)
+2026-10-14 14:40:57,859 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:57,859 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:54 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:57,859 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:40:57,860 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:57,860 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:40:57,860 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:57,860 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:40:57,860 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:57,860 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:40:57,860 : INFO  : python-output-redirector-0 :  : PythonScriptingSession : Python Script : 3:54 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:40:57,960 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/base.py:725: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   return np.array(self, dtype=dtype, copy=copy)
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:57,961 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:40:58,013 : INFO  : KNIME-Worker-13-Python Script 3:54 :  : LocalNodeExecutionJob : Python Script : 3:54 : Python Script 3:54 End execute (0 secs)
+2026-10-14 14:40:58,013 : INFO  : pool-74-thread-1 :  : DefaultPythonGateway : Python Script : 3:54 : Closing PythonGateway (PID=9538) from thread 'pool-74-thread-1'
+2026-10-14 14:40:58,061 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:58,062 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:40:58,062 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:58,063 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:40:58,163 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 : [WARN]/opt/knime-desktop/plugins/org.knime.python3.arrow_5.12.0.v202606171811/src/main/python/knime/_arrow/_pandas.py:861: FutureWarning: pd.api.extensions.take accepting non-standard inputs is deprecated and will raise in a future version. Pass either a numpy.ndarray, ExtensionArray, Index, or Series instead.
+2026-10-14 14:40:58,163 : INFO  : python-output-redirector-4 :  : PythonScriptingSession : Python Script : 3:58 :   taken = take(
+2026-10-14 14:40:58,466 : INFO  : pool-79-thread-1 :  : DefaultPythonGateway : Python Script : 3:58 : Closing PythonGateway (PID=9497) from thread 'pool-79-thread-1'
+2026-10-14 14:40:58,468 : INFO  : KNIME-Worker-10-Python Script 3:58 :  : LocalNodeExecutionJob : Python Script : 3:58 : Python Script 3:58 End execute (1 sec)
+2026-10-14 14:40:58,474 : INFO  : KNIME-Worker-6-Python Script 3:64 :  : PythonScriptingSession : Python Script : 3:64 : PythonScriptingSession created gateway (hash=5ddc6e6e) on thread 'KNIME-Worker-6-Python Script 3:64'
+2026-10-14 14:40:59,581 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:64 : [WARN]<string>:306: FutureWarning: The behavior of array concatenation with empty entries is deprecated. In a future version, this will no longer exclude empty items when determining the result dtype. To retain the old behavior, exclude the empty entries before the concat operation.
+2026-10-14 14:40:59,581 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:64 : [WARN]<string>:306: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+2026-10-14 14:40:59,581 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:64 : [WARN]<string>:309: FutureWarning: The behavior of array concatenation with empty entries is deprecated. In a future version, this will no longer exclude empty items when determining the result dtype. To retain the old behavior, exclude the empty entries before the concat operation.
+2026-10-14 14:40:59,581 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:64 : [WARN]<string>:309: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+2026-10-14 14:40:59,682 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:64 : [WARN]<string>:317: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+2026-10-14 14:40:59,682 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:64 : [WARN]/opt/knime-desktop/bundling/org_knime_pythonscripting/.pixi/envs/default/lib/python3.13/site-packages/pandas/core/arrays/datetimes.py:2491: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+2026-10-14 14:40:59,682 : INFO  : python-output-redirector-5 :  : PythonScriptingSession : Python Script : 3:64 :   data = np.array(data, dtype=np.object_)
+2026-10-14 14:41:00,573 : INFO  : pool-85-thread-1 :  : DefaultPythonGateway : Python Script : 3:64 : Closing PythonGateway (PID=9575) from thread 'pool-85-thread-1'
+2026-10-14 14:41:00,573 : INFO  : KNIME-Worker-6-Python Script 3:64 :  : LocalNodeExecutionJob : Python Script : 3:64 : Python Script 3:64 End execute (2 secs)
+2026-10-14 14:46:11,903 : INFO  : python-gateway-closer-0 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=9614) from thread 'python-gateway-closer-0'
+2026-10-14 14:46:11,903 : INFO  : python-gateway-closer-1 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=9655) from thread 'python-gateway-closer-1'
+2026-10-14 14:46:11,904 : INFO  : python-gateway-closer-2 :  : DefaultPythonGateway :  :  : Closing PythonGateway (PID=9683) from thread 'python-gateway-closer-2'
+2026-10-14 14:48:28,887 : WARN  : Thread-5794 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:48:31,998 : WARN  : Thread-6386 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:48:48,978 : WARN  : Thread-7122 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:48:51,855 : WARN  : Thread-7477 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:49:10,640 : WARN  : Thread-8197 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:49:22,068 : WARN  : Thread-8795 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:49:33,096 : WARN  : Thread-9353 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 14:49:41,745 : WARN  : Thread-10065 :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory/index.html; line: 0)
+2026-10-14 15:01:04,661 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x00007f168841a318 :  : FileUtil :  :  : Deleting 86 temporary files.
